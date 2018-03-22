@@ -1,5 +1,5 @@
 # Science Saturday
-Welcome to the repo for the Scienc Saturday Team.
+Welcome to the repo for the Science Saturday Team.
 The goal of this repo is to collaborate to publish a paper for April 1, 2018 archive papers.
 
 Here we have the Data, programs to make plots, and latex manuscript of paper.
@@ -9,11 +9,11 @@ If there is something you want to have a discussion about, open an issue about i
 
 Otherwise if there is something you want to contribute, create a new branch and file a PR to merge it to master.
 Get someone else to review the PR and it will be merged and made into the final paper.
-It is good practice to have someone look over what you merge to master before you just push it straigt to master (looking at you everyone at ST with bad git practices).
+It is good practice to have someone look over what you merge to master before you just push it straight to master (looking at you, almost everyone at ST with bad git practices).
 
 
 ## Analysis Environment
-I assume that most people attending science saturday are best in Python so I have included some Python notebooks with my initial work.
+I assume that most people attending Science Saturday are best in Python so I have included some Python notebooks with my initial work.
 And since not everyone is able to use Docker or something like that I have included a txt file that includes all of the packages I used to do the analysis.
 To install the conta environment from the file use:
 
