@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 MAR 2018 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 MAR 2018 14:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -500,6 +500,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 169.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Missing character: There is no Ã in font cmcsc10!
+Missing character: There is no ± in font cmcsc10!
+
 Overfull \hbox (9.03374pt too wide) in paragraph at lines 294--294
 [][] 
  []
@@ -512,44 +515,46 @@ Overfull \vbox (3.81036pt too high) has occurred while \output is active []
 <beerResults.pdf, id=30, 1445.4pt x 578.16pt>
 File: beerResults.pdf Graphic file (type pdf)
  <use beerResults.pdf>
-Package pdftex.def Info: beerResults.pdf used on input line 330.
+Package pdftex.def Info: beerResults.pdf used on input line 371.
 (pdftex.def)             Requested size: 436.15294pt x 174.45505pt.
 
 
-LaTeX Warning: Empty `thebibliography' environment on input line 340.
+LaTeX Warning: Empty `thebibliography' environment on input line 381.
 
-[2 <./beerResults.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
+[2 <./beerResults.pdf>] [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 384.
  (./DrinkingForScience.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 343.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 384.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 384.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8675 strings out of 492995
- 120475 string characters out of 6132704
- 258243 words of memory out of 5000000
- 12129 multiletter control sequences out of 15000+600000
- 13432 words of font info for 54 fonts, out of 8000000 for 9000
+ 8752 strings out of 492995
+ 121082 string characters out of 6132704
+ 328243 words of memory out of 5000000
+ 12202 multiletter control sequences out of 15000+600000
+ 13733 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,7n,37p,256b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,37p,475b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on DrinkingForScience.pdf (2 pages, 144179 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on DrinkingForScience.pdf (3 pages, 177449 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
