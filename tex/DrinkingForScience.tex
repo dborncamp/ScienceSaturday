@@ -1,0 +1,343 @@
+
+\documentclass{aastex62}
+
+%% The default is a single spaced, 10 point font, single spaced article.
+%% There are 5 other style options available via an optional argument. They
+%% can be envoked like this:
+%%
+%% \documentclass[argument]{aastex62}
+%% 
+%% where the layout options are:
+%%
+%%  twocolumn   : two text columns, 10 point font, single spaced article.
+%%                This is the most compact and represent the final published
+%%                derived PDF copy of the accepted manuscript from the publisher
+%%  manuscript  : one text column, 12 point font, double spaced article.
+%%  preprint    : one text column, 12 point font, single spaced article.  
+%%  preprint2   : two text columns, 12 point font, single spaced article.
+%%  modern      : a stylish, single text column, 12 point font, article with
+%% 		  wider left and right margins. This uses the Daniel
+%% 		  Foreman-Mackey and David Hogg design.
+%%  RNAAS       : Preferred style for Research Notes which are by design 
+%%                lacking an abstract and brief. DO NOT use \begin{abstract}
+%%                and \end{abstract} with this style.
+%%
+%% Note that you can submit to the AAS Journals in any of these 6 styles.
+%%
+%% There are other optional arguments one can envoke to allow other stylistic
+%% actions. The available options are:
+%%
+%%  astrosymb    : Loads Astrosymb font and define \astrocommands. 
+%%  tighten      : Makes baselineskip slightly smaller, only works with 
+%%                 the twocolumn substyle.
+%%  times        : uses times font instead of the default
+%%  linenumbers  : turn on lineno package.
+%%  trackchanges : required to see the revision mark up and print its output
+%%  longauthor   : Do not use the more compressed footnote style (default) for 
+%%                 the author/collaboration/affiliations. Instead print all
+%%                 affiliation information after each name. Creates a much
+%%                 long author list but may be desirable for short author papers
+%%
+%% these can be used in any combination, e.g.
+%%
+%% \documentclass[twocolumn,linenumbers,trackchanges]{aastex62}
+%%
+%% AASTeX v6.* now includes \hyperref support. While we have built in specific
+%% defaults into the classfile you can manually override them with the
+%% \hypersetup command. For example,
+%%
+%%\hypersetup{linkcolor=red,citecolor=green,filecolor=cyan,urlcolor=magenta}
+%%
+%% will change the color of the internal links to red, the links to the
+%% bibliography to green, the file links to cyan, and the external links to
+%% magenta. Additional information on \hyperref options can be found here:
+%% https://www.tug.org/applications/hyperref/manual.html#x1-40003
+%%
+%% If you want to create your own macros, you can do so
+%% using \newcommand. Your macros should appear before
+%% the \begin{document} command.
+%%
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+%% Reintroduced the \received and \accepted commands from AASTeX v5.2
+\received{April 1, 2018}
+\revised{March 21, 2018}
+\accepted{April 1, 2018}
+%% Command to document which AAS Journal the manuscript was submitted to.
+%% Adds "Submitted to " the arguement.
+\submitjournal{ApJ}
+
+%% Mark up commands to limit the number of authors on the front page.
+%% Note that in AASTeX v6.2 a \collaboration call (see below) counts as
+%% an author in this case.
+%
+%\AuthorCollaborationLimit=3
+%
+%% Will only show Schwarz, Muench and "the AAS Journals Data Scientist 
+%% collaboration" on the front page of this example manuscript.
+%%
+%% Note that all of the author will be shown in the published article.
+%% This feature is meant to be used prior to acceptance to make the
+%% front end of a long author article more manageable. Please do not use
+%% this functionality for manuscripts with less than 20 authors. Conversely,
+%% please do use this when the number of authors exceeds 40.
+%%
+%% Use \allauthors at the manuscript end to show the full author list.
+%% This command should only be used with \AuthorCollaborationLimit is used.
+
+%% The following command can be used to set the latex table counters.  It
+%% is needed in this document because it uses a mix of latex tabular and
+%% AASTeX deluxetables.  In general it should not be needed.
+%\setcounter{table}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% The following section outlines numerous optional output that
+%% can be displayed in the front matter or as running meta-data.
+%%
+%% If you wish, you may supply running head information, although
+%% this information may be modified by the editorial offices.
+\shorttitle{Drinking For Science}
+\shortauthors{Borncamp et al.}
+%%
+%% You can add a light gray and diagonal water-mark to the first page 
+%% with this command:
+% \watermark{text}
+%% where "text", e.g. DRAFT, is the text to appear.  If the text is 
+%% long you can control the water-mark size with:
+%  \setwatermarkfontsize{dimension}
+%% where dimension is any recognized LaTeX dimension, e.g. pt, in, etc.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% This is the end of the preamble.  Indicate the beginning of the
+%% manuscript itself with \begin{document}.
+
+\begin{document}
+
+\title{Drinking for Science to Spare Others From the Horrors of Our Mistakes in The Era of JWST\footnote{Released on April, 1st, 2018}}
+
+%% LaTeX will automatically break titles if they run longer than
+%% one line. However, you may use \\ to force a line break if
+%% you desire. In v6.2 you can include a footnote in the title.
+
+%% A significant change from earlier AASTEX versions is in the structure for 
+%% calling author and affilations. The change was necessary to implement 
+%% autoindexing of affilations which prior was a manual process that could 
+%% easily be tedious in large author manuscripts.
+%%
+%% The \author command is the same as before except it now takes an optional
+%% arguement which is the 16 digit ORCID. The syntax is:
+%% \author[xxxx-xxxx-xxxx-xxxx]{Author Name}
+%%
+%% This will hyperlink the author name to the author's ORCID page. Note that
+%% during compilation, LaTeX will do some limited checking of the format of
+%% the ID to make sure it is valid.
+%%
+%% Use \affiliation for affiliation information. The old \affil is now aliased
+%% to \affiliation. AASTeX v6.2 will automatically index these in the header.
+%% When a duplicate is found its index will be the same as its previous entry.
+%%
+%% Note that \altaffilmark and \altaffiltext have been removed and thus 
+%% can not be used to document secondary affiliations. If they are used latex
+%% will issue a specific error message and quit. Please use multiple 
+%% \affiliation calls for to document more than one affiliation.
+%%
+%% The new \altaffiliation can be used to indicate some secondary information
+%% such as fellowships. This command produces a non-numeric footnote that is
+%% set away from the numeric \affiliation footnotes.  NOTE that if an
+%% \altaffiliation command is used it must come BEFORE the \affiliation call,
+%% right after the \author command, in order to place the footnotes in
+%% the proper location.
+%%
+%% Use \email to set provide email addresses. Each \email will appear on its
+%% own line so you can put multiple email address in one \email call. A new
+%% \correspondingauthor command is available in V6.2 to identify the
+%% corresponding author of the manuscript. It is the author's responsibility
+%% to make sure this name is also in the author list.
+%%
+%% While authors can be grouped inside the same \author and \affiliation
+%% commands it is better to have a single author for each. This allows for
+%% one to exploit all the new benefits and should make book-keeping easier.
+%%
+%% If done correctly the peer review system will be able to
+%% automatically put the author and affiliation information from the manuscript
+%% and save the corresponding author the trouble of entering it by hand.
+
+\correspondingauthor{David Borncamp}
+\email{dborncamp@gmail.com}
+
+\author[0000-0002-8003-7115]{David Borncamp}
+\affil{Science Saturday Team}
+
+\author{Rachel Plesha}
+\affil{Science Saturday Team}
+
+\author{Roberto Avila}
+\affil{Science Saturday Team}
+
+\author{Joanna Taylor}
+\affil{Science Saturday Team}
+
+\author{Matthew Bourque}
+\affil{Science Saturday Team}
+
+\author{Miranda Link}
+\affil{Science Saturday Team}
+
+\author{Sean Lochwood}
+\affil{Science Saturday Team}
+
+\author{Blair Porterfield}
+\affil{Science Saturday Team}
+
+\author{Mike Porterfield}
+\affil{Science Saturday Team}
+
+\author{Katie Murray}
+\affil{Science Saturday Team}
+
+\author{Jenna Ryon}
+\affil{Science Saturday Team}
+
+\author{Heather Livingston}
+\affil{Science Saturday Team}
+
+\author{Jon Livingston}
+\affil{Science Saturday Team}
+
+\author{Matt G}
+\affil{Science Saturday Team}
+
+\author{Julia Fowler}
+\affil{Science Saturday Team}
+
+\author{Matt Dillman}
+\affil{Science Saturday Team}
+
+\author{Claire Murray}
+\affil{Science Saturday Team}
+
+\author{Elaine Synder}
+\affil{Science Saturday Team}
+
+\author{Maria Pena}
+\affil{Science Saturday Team}
+
+\author{Joe Hunkler}
+\affil{Science Saturday Team}
+
+\author{Alec Hirschauer}
+\affil{Science Saturday Team}
+
+\author{Cara }
+\affil{Science Saturday Team}
+
+\author{Allison Roberts}
+\affil{Science Saturday Team}
+
+\author{Tyler }
+\affil{Science Saturday Team}
+
+\author{Emily}
+\affil{Science Saturday Team}
+
+
+
+
+
+%% Note that the \and command from previous versions of AASTeX is now
+%% depreciated in this version as it is no longer necessary. AASTeX 
+%% automatically takes care of all commas and "and"s between authors names.
+
+%% AASTeX 6.2 has the new \collaboration and \nocollaboration commands to
+%% provide the collaboration status of a group of authors. These commands 
+%% can be used either before or after the list of corresponding authors. The
+%% argument for \collaboration is the collaboration identifier. Authors are
+%% encouraged to surround collaboration identifiers with ()s. The 
+%% \nocollaboration command takes no argument and exists to indicate that
+%% the nearby authors are not part of surrounding collaborations.
+
+%% Mark off the abstract in the ``abstract'' environment. 
+\begin{abstract}
+
+Anytime one reaches for an alcoholic beverage the thought always crosses ones mind `Am I really going to be able to tell the difference between this and something else?'
+We seek to answer this question when it comes to both beer and wine by sampling several different types of `shitty' beer and a wide range of wine.
+For the beer section we seek to answer the question of `if I am stuck at a bar that only has generic macro brews and some local light beer, which should I choose?'
+For the wine section we tried to see if we could tell the difference between white and red wine while drinking both at room temperature and if there is any correlation with rating and color.
+Here we present the results of our study in which 16 people participated in drinking wine and 18 people participated in drinking beer.
+
+\end{abstract}
+
+%% Keywords should appear after the \end{abstract} command. 
+%% See the online documentation for the full list of available subject
+%% keywords and the rules for their use.
+\keywords{beer, wine}
+
+%% From the front matter, we move on to the body of the paper.
+%% Sections are demarcated by \section and \subsection, respectively.
+%% Observe the use of the LaTeX \label
+%% command after the \subsection to give a symbolic KEY to the
+%% subsection for cross-referencing in a \ref command.
+%% You can use LaTeX's \ref and \label commands to keep track of
+%% cross-references to sections, equations, tables, and figures.
+%% That way, if you change the order of any elements, LaTeX will
+%% automatically renumber them.
+%%
+%% We recommend that authors also use the natbib \citep
+%% and \citet commands to identify citations.  The citations are
+%% tied to the reference list via symbolic KEYs. The KEY corresponds
+%% to the KEY in the \bibitem in the reference list below. 
+
+\section{Introduction} \label{sec:intro}
+Beer and wine are generally considered good social lubricants that many people from all walks of life enjoy.
+However, we take for granted that the drinks that we know and love will always be available to us, this is not always the case.
+As many people travel for leisure and work it is good to know that you have a beverage that you can count on to be universally good anywhere you go.
+Or when trying a new type, brand, or price point for your drink of choice, will you be getting your money's worth.
+We have sacrificed our Saturday evenings in an attempt to answer these questions for the world.
+All data and programs used in the analysis of this paper are available on github at \href{https://github.com/dborncamp/ScienceSaturday}{https://github.com/dborncamp/ScienceSaturday}.
+
+\section{Testing Methodology} \label{sec:style}
+We tested both Beer and Wine to answer our questions in very different ways.
+In both tests the beverages were randomized using a double blind fashion citation? 
+
+\subsection{Wine}
+Since our main question on wine is mostly related to tasting the difference between colors, it was important that all participants were blind folded for this test.
+The \textit{Science Saturday Team} was split up into two groups.
+One group was seated at a table to sample and was blindfolded while the other group would deliver a randomized sample of wine to them.
+Each participant was then instructed to taste the wine and raise the right hand if they though it was red wine and left hand if they thought it was white while holding up the number of fingers on their had for their rating.
+This helped to eliminate the issue of others at the table biasing the individual results.
+Once all wines were sampled, the groups switched places and the first group served a blindfolded second group samples.
+
+
+\subsection{Beer}
+Since the question of this experiment was not about color, and most macro brew beer is of similar color, there was no need to blindfold participants.
+Each beer was poured into a container and each container was given a random letter as a marking.
+Each participant was given a sheet of with a random listing of beers on it  (a through r) with the exception of beer r which was the final beer on everyone`s list.
+All participants were able to freely sample each beer at their leisure provided the stuck to the order on their sheets.
+The participants only provided ratings and notes on each sample, some chose to try to guess the beers they had just sampled but most did not take notes as they were largely for the participant`s own edification.
+
+
+\section{Data} \label{sec:style}
+Some tables.
+
+
+\section{Results} \label{sec:style}
+Plots and interesting inferences.
+\begin{figure}[ht!]
+\plotone{beerResults.pdf}
+\caption{Interesting Beer results. The data comes from Table bla. See InitialBeer notebook for code on making plot.}
+\end{figure}
+
+
+\begin{thebibliography}{}
+Going to be the best paper ever!
+%%\bibitem[Astropy Collaboration et al.(2013)]{2013A&A...558A..33A} Astropy Collaboration, Robitaille, T.~P., Tollerud, E.~J., et al.\ 2013, \aap, 558, A33 
+%%\bibitem[Bertin \& Arnouts(1996)]{1996A&AS..117..393B} Bertin, E., \& Arnouts, S.\ 1996, \aaps, 117, 393 
+
+\end{thebibliography}
+
+
+\end{document}
