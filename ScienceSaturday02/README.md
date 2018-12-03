@@ -1,10 +1,9 @@
-# Science Saturday 2
-## What is the best shitty beer?
+# Science Saturday 2 -- What is the best shitty beer?
 
 
-Date: March 17, 2018
-Location: R House party room
-Participants: Ali,Alec,Cara,Claire,Dave,Elaine,Emily,Heather,Jenna,Jo,Joe,Jon,Jules,Matt D,Miranda,Rachel,Roberto,Tyler
+- Date: March 17, 2018
+- Location: R House party room
+- Participants: Ali,Alec,Cara,Claire,Dave,Elaine,Emily,Heather,Jenna,Jo,Joe,Jon,Jules,Matt D,Miranda,Rachel,Roberto,Tyler
 
 #### Summary
 In this test we wanted to find out what the best shitty beer is. The idea is that sometimes you find yourself at a bar or party where there is only mass produced beers. We wanted to find out which beer you should be ordering by conducting a bling taste test.
@@ -14,4 +13,4 @@ We had a total of 18 different beers (Table 1). The beers were placed in clear p
 
 #### Results
 
-
+`Individual_scores.ipynb` contains the the scores by individual.  
