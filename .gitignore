@@ -1,2 +1,7 @@
+#Some file types to ignore to save space
 .DS_Store
 *.tar.gz
+*.pdf
+*.png
+*.jpg
+*.jpeg
