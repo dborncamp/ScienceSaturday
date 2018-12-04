@@ -2,7 +2,6 @@
 .DS_Store
 **.ipynb_checkpoints/
 *.tar.gz
-lib/.ipynb_checkpoints
 *.pdf
 *.png
 *.jpg
