@@ -5,7 +5,7 @@
 - Participants: Sean, Sara, Jo, Matt B., Chris, Keira, Roberto, Matt G., Rachel, Ethan, Miranda, Elaine, Matt G., Katie M., Jenna, Tyler,
 - Brands tested: Digiorno's, Dominos, Little Cesar's, Pizza Bolis, Pizza Hut, Papa John's
 
-#### Summary
+#### Introduction
 
 We wanted to find out what the best chain pizza is.  
 
@@ -23,7 +23,10 @@ We divided the tests by two types of pizza, cheese and pepperoni. All the pizzas
 To attempt to maintain freshness as much as possible, the pizzas were kept warm in an oven. The temperature of the pizzas was measured (using food thermometers) and recorded immediately before serving. 
 
 #### Results
-`mean_scores.py` plots the mean scores.
 
-`Individual_scores.ipynb` contains the the scores by individual. Because this is an interactive plot, it needs to be run in a Jupyter notebook.
+Running `pizza_results.py` will make the following plots:
 
+1. Overall cheese results
+2. Overall pepperoni results
+3. Cheese vs temperature plot
+4. Pepperoni vs temperature plot
