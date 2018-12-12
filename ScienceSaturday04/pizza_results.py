@@ -1,10 +1,18 @@
+'''
+Script to generate plots with result of tests conducted during
+Science Saturday 4.
+
+Example:
+
+    python pizza_results.py
+'''
 import pandas as pd
 import numpy as np
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
 
-matplotlib.style.use('bmh')
+matplotlib.style.use('ggplot')
 
 def read_tables():
 
@@ -15,7 +23,7 @@ def read_tables():
                         usecols='C:K'
                         )
 
-    pizzas = ['Pappa John\'s','Pizza Boli\'s','Digiorno','Little Caesar\'s','Dominos','Pizza Hut','Pizza Hut Stuffed Crust']
+    pizzas = ["Pappa John's","Pizza Boli's","Digiorno","Little Caesar's","Dominos","Pizza Hut","Pizza Hut Stuffed Crust"]
     categories = ['Sauce','Cheese','Greasiness','Crust','Overall','Chain Guess']
     arrays = [list(np.repeat(pizzas,6)),categories*7]
     tuples = list(zip(*arrays))
@@ -30,8 +38,8 @@ def read_tables():
                          usecols='C:L'
                          )
 
-    pizzas = ['Digiorno','Pizza Hut','Dominos','Pizza Boli\'s','Pappa John\'s','Little Caesar\'s',]
-    categories = ['Sauce','Cheese','Topping','Greasiness','Crust','Overall','Chain Guess']
+    pizzas = ["Digiorno","Pizza Hut","Dominos","Pizza Boli's","Pappa John's","Little Caesar's",]
+    categories = ["Sauce","Cheese","Topping","Greasiness","Crust","Overall","Chain Guess"]
     arrays = [list(np.repeat(pizzas,7)),categories*6]
     tuples = list(zip(*arrays))
     mux = pd.MultiIndex.from_tuples(tuples, names = ['Brand','category'])
@@ -47,8 +55,8 @@ def read_tables():
                          sheet_name='Pepperoni temperatures',
                          header=1
                          )
+
     return tab1,tab2,tab3,tab4
-    return tab1,tab2
 
 def cheese_overall_results(tab1):
 

@@ -24,9 +24,15 @@ To attempt to maintain freshness as much as possible, the pizzas were kept warm 
 
 ## Results
 
-Running `pizza_results.py` will make the following plots:
+Running `pizza_results.py` from the command line will make the following 
+plots:
 
 1. Overall cheese results
 2. Overall pepperoni results
 3. Cheese vs temperature plot
 4. Pepperoni vs temperature plot
+
+The file can also be imported in an python terminal so that the several
+functions can be run independently. The `read_tables()` function might 
+be the most useful since it return pandas data frames containing the 
+full results.
