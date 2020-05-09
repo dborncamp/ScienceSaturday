@@ -1,14 +1,14 @@
-Pizza,Type,Averages,Elaine,Ethan,Katie_M,Keira,Jenna,Matt_G,Miranda,Rachel,Roberto,Tyler,Chris,Jo,Keira,Matt_B,Sara,Sean
-A,pepperoni,3/10,Pizza_Bolis,Digiorno,Papa_Johns,Little_Ceasars,Digiorno,Little_Ceasars,Dominos,Papa_Johns,Pizza_Bolis,Digiorno,,,,,,
-B,pepperoni,6/10,Papa_Johns,Little_Ceasars,Pizza_Hut,Pizza_Hut,Pizza_Hut,Pizza_Hut,Little_Ceasars,Digiorno,Pizza_Hut,Pizza_Hut,,,,,,
-C,pepperoni,3/10,Dominos,Little_Ceasars,Little_Ceasars,Pizza_Hut,Dominos,Dominos,Digiorno,Little_Ceasars,Pizza_Bolis,Pizza_Bolis,,,,,,
-D,pepperoni,3/10,Pizza_Hut,Dominos,Pizza_Bolis,Pizza_Hut,Papa_Johns,Papa_Johns,Pizza_Bolis,Pizza_Bolis,Papa_Johns,Little_Ceasars,,,,,,
-E,pepperoni,1/10,Little_Ceasars,Pizza_Hut,Little_Ceasars,Dominos,Pizza_Bolis,Pizza_Bolis,Pizza_Hut,Dominos,Papa_Johns,Little_Ceasars,,,,,,
-F,pepperoni,4/10,Digiorno,Little_Ceasars,Digiorno,Digiorno,Little_Ceasars,Little_Ceasars,Digiorno,Little_Ceasars,Digiorno,Papa_Johns,,,,,,
-A,cheese,4/9,,,,,,Pizza_Bolis,,Pizza_Hut,Papa_Johns,,Papa_Johns,Papa_Johns,Pizza_Hut,Dominos,N/A,Papa_Johns
-B,cheese,3/9,,,,,,Papa_Johns,,Pizza_Bolis,Digiorno,,Little_Ceasars,Papa_Johns,Dominos,Pizza_Bolis,Pizza_Bolis,Pizza_Hut
-C,cheese,2/9,,,,,,Dominos,,Papa_Johns,Little_Ceasars,,Pizza_Bolis,Digiorno,Little_Ceasars,Little_Ceasars,N/A,Digiorno
-D,cheese,2/9,,,,,,Digiorno,,Little_Ceasars,Pizza_Hut,,Pizza_Bolis,Papa_Johns,Digiorno,Little_Ceasars,N/A,Dominos
-E,cheese,3/9,,,,,,Dominos,,Digiorno,Dominos,,Digiorno,Dominos,Pizza_Bolis,Papa_Johns,N/A,Pizza_Hut
-F,cheese,2/9,,,,,,Little_Ceasars,,Dominos,Pizza_Bolis,,Little_Ceasars,Pizza_Hut,Papa_Johns,Pizza_Hut,N/A,Pizza_Bolis
-G,cheese,7/9,,,,,,Pizza_Hut,,Pizza_Hut,Pizza_Hut,,Pizza_Hut,Pizza_Hut,Pizza_Hut,Pizza_Hut,N/A,Little_Ceasars
+pizza_chain,Pizza,Temp,Type,Averages,Elaine,Ethan,Katie_M,Keira,Jenna,Matt_G,Miranda,Rachel,Roberto,Tyler,Chris,Jo,Keira,Matt_B,Sara,Sean
+Digiorno,A,107.6,pepperoni,10-Mar,Pizza_Bolis,Digiorno,Papa_Johns,Little_Ceasars,Digiorno,Little_Ceasars,Dominos,Papa_Johns,Pizza_Bolis,Digiorno,,,,,,
+Pizza Hut,B,106.5,pepperoni,10-Jun,Papa_Johns,Little_Ceasars,Pizza_Hut,Pizza_Hut,Pizza_Hut,Pizza_Hut,Little_Ceasars,Digiorno,Pizza_Hut,Pizza_Hut,,,,,,
+Domino's,C,109,pepperoni,10-Mar,Dominos,Little_Ceasars,Little_Ceasars,Pizza_Hut,Dominos,Dominos,Digiorno,Little_Ceasars,Pizza_Bolis,Pizza_Bolis,,,,,,
+Pizza Boli's,D,115.2,pepperoni,10-Mar,Pizza_Hut,Dominos,Pizza_Bolis,Pizza_Hut,Papa_Johns,Papa_Johns,Pizza_Bolis,Pizza_Bolis,Papa_Johns,Little_Ceasars,,,,,,
+Papa John's,E,126,pepperoni,10-Jan,Little_Ceasars,Pizza_Hut,Little_Ceasars,Dominos,Pizza_Bolis,Pizza_Bolis,Pizza_Hut,Dominos,Papa_Johns,Little_Ceasars,,,,,,
+Little Ceasar's,F,148.3,pepperoni,10-Apr,Digiorno,Little_Ceasars,Digiorno,Digiorno,Little_Ceasars,Little_Ceasars,Digiorno,Little_Ceasars,Digiorno,Papa_Johns,,,,,,
+Papa John's,A,119,cheese,9-Apr,,,,,,Pizza_Bolis,,Pizza_Hut,Papa_Johns,,Papa_Johns,Papa_Johns,Pizza_Hut,Dominos,N/A,Papa_Johns
+Pizza Boli's,B,117.9,cheese,9-Mar,,,,,,Papa_Johns,,Pizza_Bolis,Digiorno,,Little_Ceasars,Papa_Johns,Dominos,Pizza_Bolis,Pizza_Bolis,Pizza_Hut
+Digiorno,C,112.6,cheese,9-Feb,,,,,,Dominos,,Papa_Johns,Little_Ceasars,,Pizza_Bolis,Digiorno,Little_Ceasars,Little_Ceasars,N/A,Digiorno
+Little Ceasar's,D,139,cheese,9-Feb,,,,,,Digiorno,,Little_Ceasars,Pizza_Hut,,Pizza_Bolis,Papa_Johns,Digiorno,Little_Ceasars,N/A,Dominos
+Domino's,E,123.6,cheese,9-Mar,,,,,,Dominos,,Digiorno,Dominos,,Digiorno,Dominos,Pizza_Bolis,Papa_Johns,N/A,Pizza_Hut
+Pizza Hut,F,114,cheese,9-Feb,,,,,,Little_Ceasars,,Dominos,Pizza_Bolis,,Little_Ceasars,Pizza_Hut,Papa_Johns,Pizza_Hut,N/A,Pizza_Bolis
+Stuffed Crust Pizza Hut,G,110,cheese,9-Jul,,,,,,Pizza_Hut,,Pizza_Hut,Pizza_Hut,,Pizza_Hut,Pizza_Hut,Pizza_Hut,Pizza_Hut,N/A,Little_Ceasars
