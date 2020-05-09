@@ -1,0 +1,89 @@
+﻿case,guesser,wine1,wine1_number,wine1_color,wine1_guess,wine1_rating,wine1_correct,wine2,wine2_number,wine2_color,wine2_guess,wine2_rating,wine2_correct
+1,Matt B,Sauvignon Blanc,5,White,White,3,TRUE,Chianti,3,Red,Red,2,TRUE
+1,Miranda,Sauvignon Blanc,5,White,White,3,TRUE,Chianti,3,Red,Red,2,TRUE
+1,Sean,Sauvignon Blanc,5,White,White,3,TRUE,Chianti,3,Red,Red,3,TRUE
+1,Jenna,Sauvignon Blanc,5,White,White,4,TRUE,Chianti,3,Red,Red,3,TRUE
+1,Rachel,Sauvignon Blanc,5,White,White,1,TRUE,Chianti,3,Red,Red,3,TRUE
+1,Jules,Sauvignon Blanc,5,White,White,3,TRUE,Chianti,3,Red,White,2,FALSE
+1,Matt D.,Sauvignon Blanc,5,White,White,3,TRUE,Chianti,3,Red,Red,2,TRUE
+1,Jo,Sauvignon Blanc,5,White,White,2,TRUE,Chianti,3,Red,Red,4,TRUE
+2,Matt B,Moscato,1,White,Rose,3,FALSE,Pinot Noir,7,Red,Red,2,TRUE
+2,Miranda,Moscato,1,White,White,4,TRUE,Pinot Noir,7,Red,Red,5,TRUE
+2,Sean,Moscato,1,White,Rose,4,FALSE,Pinot Noir,7,Red,Red,4,TRUE
+2,Jenna,Moscato,1,White,White,0,TRUE,Pinot Noir,7,Red,Red,3,TRUE
+2,Rachel,Moscato,1,White,White,3,TRUE,Pinot Noir,7,Red,Red,2,TRUE
+2,Jules,Moscato,1,White,White,4,TRUE,Pinot Noir,7,Red,Red,4,TRUE
+2,Matt D.,Moscato,1,White,White,2,TRUE,Pinot Noir,7,Red,Red,2,TRUE
+2,Jo,Moscato,1,White,Rose,4,FALSE,Pinot Noir,7,Red,Red,1,TRUE
+3,Matt B,Chianti,3,Red,White,3,FALSE,Pinot Noir,7,Red,Red,4,TRUE
+3,Miranda,Chianti,3,Red,White,2,FALSE,Pinot Noir,7,Red,Red,3,TRUE
+3,Sean,Chianti,3,Red,Red,2,TRUE,Pinot Noir,7,Red,Red,3,TRUE
+3,Jenna,Chianti,3,Red,Red,3,TRUE,Pinot Noir,7,Red,Red,4,TRUE
+3,Rachel,Chianti,3,Red,Red,4,TRUE,Pinot Noir,7,Red,Red,5,TRUE
+3,Jules,Chianti,3,Red,White,0,FALSE,Pinot Noir,7,Red,Red,4,TRUE
+3,Matt D.,Chianti,3,Red,Red,2,TRUE,Pinot Noir,7,Red,Red,1,TRUE
+3,Jo,Chianti,3,Red,Red,3,TRUE,Pinot Noir,7,Red,Red,3,TRUE
+4,Matt B,Sauvignon Blanc,5,White,White,4,TRUE,Zinfandel,6,Red,Red,3,TRUE
+4,Miranda,Sauvignon Blanc,5,White,White,3,TRUE,Zinfandel,6,Red,Red,5,TRUE
+4,Sean,Sauvignon Blanc,5,White,Rose,3,FALSE,Zinfandel,6,Red,Red,4,TRUE
+4,Jenna,Sauvignon Blanc,5,White,White,4,TRUE,Zinfandel,6,Red,Red,4,TRUE
+4,Rachel,Sauvignon Blanc,5,White,White,3,TRUE,Zinfandel,6,Red,White,4,FALSE
+4,Jules,Sauvignon Blanc,5,White,Rose,2,FALSE,Zinfandel,6,Red,Red,4.5,TRUE
+4,Matt D.,Sauvignon Blanc,5,White,White,3,TRUE,Zinfandel,6,Red,Red,2,TRUE
+4,Jo,Sauvignon Blanc,5,White,White,3,TRUE,Zinfandel,6,Red,Red,3,TRUE
+5,Matt B,Moscato,1,White,Rose,3,FALSE,Zinfandel,6,Red,Red,3,TRUE
+5,Miranda,Moscato,1,White,White,4,TRUE,Zinfandel,6,Red,Red,4,TRUE
+5,Sean,Moscato,1,White,Rose,4,FALSE,Zinfandel,6,Red,Red,4,TRUE
+5,Jenna,Moscato,1,White,White,0,TRUE,Zinfandel,6,Red,Red,5,TRUE
+5,Rachel,Moscato,1,White,Rose,3,FALSE,Zinfandel,6,Red,Red,3,TRUE
+5,Jules,Moscato,1,White,White,4,TRUE,Zinfandel,6,Red,Red,4.5,TRUE
+5,Matt D.,Moscato,1,White,White,2,TRUE,Zinfandel,6,Red,Red,1,TRUE
+5,Jo,Moscato,1,White,Rose,4,FALSE,Zinfandel,6,Red,Red,5,TRUE
+6,Matt B,Moscato,1,White,Rose,3,FALSE,Cabernet Sauvignon (fridge),8,Red,Red,2,TRUE
+6,Miranda,Moscato,1,White,Rose,4,FALSE,Cabernet Sauvignon (fridge),8,Red,Red,3,TRUE
+6,Sean,Moscato,1,White,White,3,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,3,TRUE
+6,Jenna,Moscato,1,White,White,0,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,3,TRUE
+6,Rachel,Moscato,1,White,White,3,TRUE,Cabernet Sauvignon (fridge),8,Red,White,3,FALSE
+6,Jules,Moscato,1,White,White,4,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,3,TRUE
+6,Matt D.,Moscato,1,White,White,2,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,1,TRUE
+6,Jo,Moscato,1,White,Rose,4,FALSE,Cabernet Sauvignon (fridge),8,Red,Red,1,TRUE
+7,Matt B,Petite Sirah,4,Red,Red,4,TRUE,Zinfandel,6,Red,Red,3,TRUE
+7,Miranda,Petite Sirah,4,Red,Red,2,TRUE,Zinfandel,6,Red,Red,3,TRUE
+7,Sean,Petite Sirah,4,Red,Red,4,TRUE,Zinfandel,6,Red,White,1,FALSE
+7,Jenna,Petite Sirah,4,Red,Red,5,TRUE,Zinfandel,6,Red,Red,5,TRUE
+7,Rachel,Petite Sirah,4,Red,Red,4,TRUE,Zinfandel,6,Red,Red,4,TRUE
+7,Jules,Petite Sirah,4,Red,Red,3.5,TRUE,Zinfandel,6,Red,Red,4,TRUE
+7,Matt D.,Petite Sirah,4,Red,Red,4,TRUE,Zinfandel,6,Red,Red,3,TRUE
+7,Jo,Petite Sirah,4,Red,Red,3,TRUE,Zinfandel,6,Red,Red,3,TRUE
+8,Matt B,Pinot Noir,7,Red,Red,4,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,3,TRUE
+8,Miranda,Pinot Noir,7,Red,Red,4,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,5,TRUE
+8,Sean,Pinot Noir,7,Red,Red,3,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,2,TRUE
+8,Jenna,Pinot Noir,7,Red,Red,5,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,4,TRUE
+8,Rachel,Pinot Noir,7,Red,Red,2,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,4,TRUE
+8,Jules,Pinot Noir,7,Red,Rose,3.3,FALSE,Cabernet Sauvignon (fridge),8,Red,Red,3.5,TRUE
+8,Matt D.,Pinot Noir,7,Red,Red,3,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,2,TRUE
+8,Jo,Pinot Noir,7,Red,Red,4,TRUE,Cabernet Sauvignon (fridge),8,Red,Red,3,TRUE
+9,Matt B,Cabernet Sauvignon (non-fridge),9,Red,Red,4,TRUE,Albarino,10,White,White,5,TRUE
+9,Miranda,Cabernet Sauvignon (non-fridge),9,Red,Red,4,TRUE,Albarino,10,White,White,3,TRUE
+9,Sean,Cabernet Sauvignon (non-fridge),9,Red,White,2,FALSE,Albarino,10,White,White,3,TRUE
+9,Jenna,Cabernet Sauvignon (non-fridge),9,Red,Red,5,TRUE,Albarino,10,White,White,3,TRUE
+9,Rachel,Cabernet Sauvignon (non-fridge),9,Red,Red,3,TRUE,Albarino,10,White,White,4,TRUE
+9,Jules,Cabernet Sauvignon (non-fridge),9,Red,Red,4,TRUE,Albarino,10,White,White,3,TRUE
+9,Matt D.,Cabernet Sauvignon (non-fridge),9,Red,Red,4,TRUE,Albarino,10,White,White,3,TRUE
+9,Jo,Cabernet Sauvignon (non-fridge),9,Red,Red,3,TRUE,Albarino,10,White,White,4,TRUE
+10,Matt B,Albarino,10,White,Red,4,FALSE,Cabernet Sauvignon (non-fridge),9,Red,Red,4,TRUE
+10,Miranda,Albarino,10,White,White,2,TRUE,Cabernet Sauvignon (non-fridge),9,Red,Red,4,TRUE
+10,Sean,Albarino,10,White,White,3,TRUE,Cabernet Sauvignon (non-fridge),9,Red,Red,3,TRUE
+10,Jenna,Albarino,10,White,White,2,TRUE,Cabernet Sauvignon (non-fridge),9,Red,Red,4,TRUE
+10,Rachel,Albarino,10,White,White,3,TRUE,Cabernet Sauvignon (non-fridge),9,Red,White,4,FALSE
+10,Jules,Albarino,10,White,White,4,TRUE,Cabernet Sauvignon (non-fridge),9,Red,Red,2.7,TRUE
+10,Matt D.,Albarino,10,White,White,2,TRUE,Cabernet Sauvignon (non-fridge),9,Red,Red,3,TRUE
+10,Jo,Albarino,10,White,White,3,TRUE,Cabernet Sauvignon (non-fridge),9,Red,Red,4,TRUE
+11,Matt B,Cabernet Sauvignon (fridge),9,Red,Red,4,TRUE,Cabernet Sauvignon (non-fridge),11,Red,Red,4,TRUE
+11,Miranda,Cabernet Sauvignon (fridge),9,Red,White,3,FALSE,Cabernet Sauvignon (non-fridge),11,Red,Red,5,TRUE
+11,Sean,Cabernet Sauvignon (fridge),9,Red,Red,3,TRUE,Cabernet Sauvignon (non-fridge),11,Red,Red,3,TRUE
+11,Jenna,Cabernet Sauvignon (fridge),9,Red,Red,2,TRUE,Cabernet Sauvignon (non-fridge),11,Red,Red,3,TRUE
+11,Rachel,Cabernet Sauvignon (fridge),9,Red,Red,4,TRUE,Cabernet Sauvignon (non-fridge),11,Red,Red,5,TRUE
+11,Jules,Cabernet Sauvignon (fridge),9,Red,Red,5,TRUE,Cabernet Sauvignon (non-fridge),11,Red,Red,5,TRUE
+11,Matt D.,Cabernet Sauvignon (fridge),9,Red,Red,3,TRUE,Cabernet Sauvignon (non-fridge),11,Red,Red,3,TRUE
+11,Jo,Cabernet Sauvignon (fridge),9,Red,Red,4,TRUE,Cabernet Sauvignon (non-fridge),11,Red,Red,4,TRUE
