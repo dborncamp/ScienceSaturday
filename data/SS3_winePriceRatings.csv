@@ -1,13 +1,13 @@
-﻿Wine,wine_name,wine_price,Color,Roberto,Matt,Elaine,Jenna,Miranda,Ethan,Jon,Heather,Rachel,Becka,Jo,Averages
-A,Chappalet,$35 ,White,4.5,2,4,4,3,2,5,3,4,3,3.5,3.454545455
-B,Crimson Ranch,$14 ,White,1.5,3,1.5,0,4,3,2,2,4,4,4.5,2.681818182
-C,Levendi,$40 ,White,2.5,3,2,1.5,2.5,3.5,1,2,3,2,3.75,2.431818182
-D,Atrevida,$10 ,White,1,4,2.5,3.5,3,3,4,4,4,3,2,3.090909091
-E,Ceja,$45 ,White,1.5,1,0.5,3,2,4,1,0,1,3,4.25,1.931818182
-F,Santa Barbara Co,$25 ,White,2.5,2,3.5,4.5,3.5,3,0,5,2,2,2,2.727272727
-A,Vistamar Sepia Reserva,$12 ,Red,1,1,1,2,5,2,3,5,3,3,3.5,2.681818182
-B,Stevensxy,$50 ,Red,4,5,4,4.5,4,4,2,3,4,3.5,4,3.818181818
-C,Sheridan Vineyard,$30 ,Red,1,1,2,1,3,2.5,1,4,3,2,3,2.136363636
-D,Oak Ridge Lodi,$15 ,Red,4,3.5,4.5,2.5,5,4.5,2,5,3,3,4.5,3.772727273
-E,Apex Cellars,$40 ,Red,3,2,0.5,3.5,2,3,1,1,2,3.5,2.5,2.181818182
-F,Avenel Cellars,$24 ,Red,2.5,3,3,4,4.5,3,0,2,2,3,2,2.636363636
+﻿Wine,wine_name,wine_price,Color,Roberto,Matt,Elaine,Jenna,Miranda,Ethan,Jon,Heather,Rachel,Becka,Jo
+A,Chappalet,$35 ,White,4.5,2,4,4,3,2,5,3,4,3,3.5
+B,Crimson Ranch,$14 ,White,1.5,3,1.5,0,4,3,2,2,4,4,4.5
+C,Levendi,$40 ,White,2.5,3,2,1.5,2.5,3.5,1,2,3,2,3.75
+D,Atrevida,$10 ,White,1,4,2.5,3.5,3,3,4,4,4,3,2
+E,Ceja,$45 ,White,1.5,1,0.5,3,2,4,1,0,1,3,4.25
+F,Santa Barbara Co,$25 ,White,2.5,2,3.5,4.5,3.5,3,0,5,2,2,2
+A,Vistamar Sepia Reserva,$12 ,Red,1,1,1,2,5,2,3,5,3,3,3.5
+B,Stevensxy,$50 ,Red,4,5,4,4.5,4,4,2,3,4,3.5,4
+C,Sheridan Vineyard,$30 ,Red,1,1,2,1,3,2.5,1,4,3,2,3
+D,Oak Ridge Lodi,$15 ,Red,4,3.5,4.5,2.5,5,4.5,2,5,3,3,4.5
+E,Apex Cellars,$40 ,Red,3,2,0.5,3.5,2,3,1,1,2,3.5,2.5
+F,Avenel Cellars,$24 ,Red,2.5,3,3,4,4.5,3,0,2,2,3,2
