@@ -1,0 +1,76 @@
+﻿case,guesser,wine1,wine1_number,wine1_color,wine1_guess,wine1_rating,wine1_correct,wine2,wine2_number,wine2_color,wine2_guess,wine2_rating,wine2_correct
+1,Keira,Port,1,Red,Red,4,TRUE,Pinot Grigio,5,White,White,2,TRUE
+1,Jenna,Port,1,Red,White,1,FALSE,Pinot Grigio,5,White,White,4,TRUE
+1,Matt_G,Port,1,Red,Red,4,TRUE,Pinot Grigio,5,White,White,3,TRUE
+1,Tyler,Port,1,Red,,,,Pinot Grigio,5,White,,,
+1,Roberto,Port,1,Red,White,4,FALSE,Pinot Grigio,5,White,White,2,TRUE
+2,Keira,Chardonnay,4,White,Red,2,FALSE,Pinot Grigio,5,White,White,4,TRUE
+2,Jenna,Chardonnay,4,White,Red,4,FALSE,Pinot Grigio,5,White,White,4,TRUE
+2,Matt_G,Chardonnay,4,White,White,3,TRUE,Pinot Grigio,5,White,Red,3,FALSE
+2,Tyler,Chardonnay,4,White,,,,Pinot Grigio,5,White,,,
+2,Roberto,Chardonnay,4,White,Red,2,FALSE,Pinot Grigio,5,White,White,2,TRUE
+3,Keira,Port,1,Red,White,4,FALSE,Bordeaux,2,Red,Red,2,TRUE
+3,Jenna,Port,1,Red,White,1,FALSE,Bordeaux,2,Red,Red,3,TRUE
+3,Matt_G,Port,1,Red,Red,4,TRUE,Bordeaux,2,Red,Rose,1,FALSE
+3,Tyler,Port,1,Red,,,,Bordeaux,2,Red,,,
+3,Roberto,Port,1,Red,White,4,FALSE,Bordeaux,2,Red,White,2,FALSE
+4,Keira,Port,1,Red,Red,4,TRUE,Chardonnay,4,White,White,2,TRUE
+4,Jenna,Port,1,Red,White,1,FALSE,Chardonnay,4,White,White,3,TRUE
+4,Matt_G,Port,1,Red,Red,3,TRUE,Chardonnay,4,White,White,2,TRUE
+4,Tyler,Port,1,Red,,,,Chardonnay,4,White,,,
+4,Roberto,Port,1,Red,White,4,FALSE,Chardonnay,4,White,,2,
+5,Keira,Chardonnay,4,White,White,3,TRUE,Rose,6,Rose,White,1,FALSE
+5,Jenna,Chardonnay,4,White,Red,3,FALSE,Rose,6,Rose,White,4,FALSE
+5,Matt_G,Chardonnay,4,White,White,2,TRUE,Rose,6,Rose,White,1,FALSE
+5,Tyler,Chardonnay,4,White,,,,Rose,6,Rose,,,
+5,Roberto,Chardonnay,4,White,White,3,TRUE,Rose,6,Rose,Red,2,FALSE
+6,Keira,Bordeaux,2,Red,Red,2,TRUE,Chardonnay,4,White,White,1,TRUE
+6,Jenna,Bordeaux,2,Red,Red,3,TRUE,Chardonnay,4,White,White,3,TRUE
+6,Matt_G,Bordeaux,2,Red,Red,2,TRUE,Chardonnay,4,White,Red,2,FALSE
+6,Tyler,Bordeaux,2,Red,,,,Chardonnay,4,White,,,
+6,Roberto,Bordeaux,2,Red,Red,4,TRUE,Chardonnay,4,White,White,3,TRUE
+7,Keira,Pinot Grigio,5,White,White,2,TRUE,Rose,6,Rose,Rose,2,TRUE
+7,Jenna,Pinot Grigio,5,White,White,4,TRUE,Rose,6,Rose,White,3,FALSE
+7,Matt_G,Pinot Grigio,5,White,White,2,TRUE,Rose,6,Rose,White,1,FALSE
+7,Tyler,Pinot Grigio,5,White,,,,Rose,6,Rose,,,
+7,Roberto,Pinot Grigio,5,White,White,3,TRUE,Rose,6,Rose,White,3,FALSE
+8,Keira,Port,1,Red,Red,4,TRUE,Rose,6,Rose,White,1,FALSE
+8,Jenna,Port,1,Red,White,1,FALSE,Rose,6,Rose,White,2,FALSE
+8,Matt_G,Port,1,Red,Red,4,TRUE,Rose,6,Rose,White,1,FALSE
+8,Tyler,Port,1,Red,,,,Rose,6,Rose,,,
+8,Roberto,Port,1,Red,White,3,FALSE,Rose,6,Rose,White,2,FALSE
+9,Keira,Bordeaux,2,Red,Red,1,TRUE,Syrah,3,Red,Red,1,TRUE
+9,Jenna,Bordeaux,2,Red,Red,3,TRUE,Syrah,3,Red,Red,3,TRUE
+9,Matt_G,Bordeaux,2,Red,White,2,FALSE,Syrah,3,Red,White,2,FALSE
+9,Tyler,Bordeaux,2,Red,,,,Syrah,3,Red,,,
+9,Roberto,Bordeaux,2,Red,Red,1,TRUE,Syrah,3,Red,Red,4,TRUE
+10,Keira,Bordeaux,2,Red,Red,1,TRUE,Rose,6,Rose,White,2,FALSE
+10,Jenna,Bordeaux,2,Red,Red,3,TRUE,Rose,6,Rose,White,3,FALSE
+10,Matt_G,Bordeaux,2,Red,White,2,FALSE,Rose,6,Rose,White,3,FALSE
+10,Tyler,Bordeaux,2,Red,,,,Rose,6,Rose,,,
+10,Roberto,Bordeaux,2,Red,Red,3,TRUE,Rose,6,Rose,White,2,FALSE
+11,Keira,Bordeaux,2,Red,Red,2,TRUE,Pinot Grigio,5,White,White,2,TRUE
+11,Jenna,Bordeaux,2,Red,Red,4,TRUE,Pinot Grigio,5,White,White,3,TRUE
+11,Matt_G,Bordeaux,2,Red,,,,Pinot Grigio,5,White,,,
+11,Tyler,Bordeaux,2,Red,Red,4,TRUE,Pinot Grigio,5,White,White,2,TRUE
+11,Roberto,Bordeaux,2,Red,Red,2,TRUE,Pinot Grigio,5,White,White,3,TRUE
+12,Keira,Syrah,3,Red,Red,3,TRUE,Pinot Grigio,5,White,White,3,TRUE
+12,Jenna,Syrah,3,Red,Red,3,TRUE,Pinot Grigio,5,White,White,4,TRUE
+12,Matt_G,Syrah,3,Red,,,,Pinot Grigio,5,White,,,
+12,Tyler,Syrah,3,Red,Red,5,TRUE,Pinot Grigio,5,White,White,3,TRUE
+12,Roberto,Syrah,3,Red,Red,2,TRUE,Pinot Grigio,5,White,White,3,TRUE
+13,Keira,Port,1,Red,Red,4,TRUE,Syrah,3,Red,Red,1,TRUE
+13,Jenna,Port,1,Red,White,1,FALSE,Syrah,3,Red,Red,3,TRUE
+13,Matt_G,Port,1,Red,,,,Syrah,3,Red,,,
+13,Tyler,Port,1,Red,White,4,FALSE,Syrah,3,Red,Red,3,TRUE
+13,Roberto,Port,1,Red,White,4,FALSE,Syrah,3,Red,Red,3,TRUE
+14,Keira,Syrah,3,Red,Red,1,TRUE,Rose,6,Rose,White,2,FALSE
+14,Jenna,Syrah,3,Red,Red,4,TRUE,Rose,6,Rose,White,3,FALSE
+14,Matt_G,Syrah,3,Red,,,,Rose,6,Rose,,,
+14,Tyler,Syrah,3,Red,Red,3,TRUE,Rose,6,Rose,White,2,FALSE
+14,Roberto,Syrah,3,Red,Red,4,TRUE,Rose,6,Rose,White,3,FALSE
+15,Keira,Syrah,3,Red,White,3,FALSE,Chardonnay,4,White,White,2,TRUE
+15,Jenna,Syrah,3,Red,Red,4,TRUE,Chardonnay,4,White,White,3,TRUE
+15,Matt_G,Syrah,3,Red,,,,Chardonnay,4,White,,,
+15,Tyler,Syrah,3,Red,Red,2,TRUE,Chardonnay,4,White,White,4,TRUE
+15,Roberto,Syrah,3,Red,Red,3,TRUE,Chardonnay,4,White,White,4,TRUE
