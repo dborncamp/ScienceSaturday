@@ -1,0 +1,81 @@
+﻿case,guesser,wine1,wine1_number,wine1_color,wine1_guess,wine1_rating,wine1_correct,wine2,wine2_number,wine2_color,wine2_guess,wine2_rating,wine2_correct
+1,Dave,Chardonay,6,White,White,3,TRUE,Malbec,1,Red,Red,4,TRUE
+1,Heather,Chardonay,6,White,White,2,TRUE,Malbec,1,Red,Red,3,TRUE
+1,Jon,Chardonay,6,White,Rose,3,FALSE,Malbec,1,Red,Red,2,TRUE
+1,Katie,Chardonay,6,White,White,5,TRUE,Malbec,1,Red,Red,3,TRUE
+1,Matt G,Chardonay,6,White,Red,3,FALSE,Malbec,1,Red,White,2,FALSE
+1,Blair,Chardonay,6,White,White,2,TRUE,Malbec,1,Red,Red,3,TRUE
+1,Mike,Chardonay,6,White,White,3,TRUE,Malbec,1,Red,Red,2,TRUE
+1,Roberto,Chardonay,6,White,White,4,TRUE,Malbec,1,Red,Red,2,TRUE
+2,Dave,Pinot Gris,4,White,White,1,TRUE,Chardonay,6,White,White,2,TRUE
+2,Heather,Pinot Gris,4,White,Red,1,FALSE,Chardonay,6,White,Rose,2,FALSE
+2,Jon,Pinot Gris,4,White,White,2,TRUE,Chardonay,6,White,White,3,TRUE
+2,Katie,Pinot Gris,4,White,White,4,TRUE,Chardonay,6,White,Rose,5,FALSE
+2,Matt G,Pinot Gris,4,White,Red,3,FALSE,Chardonay,6,White,White,3,TRUE
+2,Blair,Pinot Gris,4,White,White,2,TRUE,Chardonay,6,White,White,2,TRUE
+2,Mike,Pinot Gris,4,White,White,3,TRUE,Chardonay,6,White,White,5,TRUE
+2,Roberto,Pinot Gris,4,White,White,2,TRUE,Chardonay,6,White,White,4,TRUE
+3,Dave,Dornfelder,2,Red,Red,3,TRUE,Rose,3,Rose,White,2,FALSE
+3,Heather,Dornfelder,2,Red,White,1,FALSE,Rose,3,Rose,White,1,FALSE
+3,Jon,Dornfelder,2,Red,Red,1,TRUE,Rose,3,Rose,Red,2,FALSE
+3,Katie,Dornfelder,2,Red,Red,4,TRUE,Rose,3,Rose,Red,2,FALSE
+3,Matt G,Dornfelder,2,Red,Red,4,TRUE,Rose,3,Rose,Red,5,FALSE
+3,Blair,Dornfelder,2,Red,Red,1,TRUE,Rose,3,Rose,Rose,3,TRUE
+3,Mike,Dornfelder,2,Red,Red,2,TRUE,Rose,3,Rose,Rose,1,TRUE
+3,Roberto,Dornfelder,2,Red,White,4,FALSE,Rose,3,Rose,White,3,FALSE
+4,Dave,Bordeaux,8,Red,Red,2,TRUE,Pinot Grigio 2015,9,White,White,3,TRUE
+4,Heather,Bordeaux,8,Red,Red,4,TRUE,Pinot Grigio 2015,9,White,Red,1,FALSE
+4,Jon,Bordeaux,8,Red,Red,1,TRUE,Pinot Grigio 2015,9,White,White,2,TRUE
+4,Katie,Bordeaux,8,Red,Red,2,TRUE,Pinot Grigio 2015,9,White,White,4,TRUE
+4,Matt G,Bordeaux,8,Red,White,2,FALSE,Pinot Grigio 2015,9,White,Rose,3,FALSE
+4,Blair,Bordeaux,8,Red,Red,4,TRUE,Pinot Grigio 2015,9,White,White,3,TRUE
+4,Mike,Bordeaux,8,Red,Red,2,TRUE,Pinot Grigio 2015,9,White,White,2,TRUE
+4,Roberto,Bordeaux,8,Red,Red,2,TRUE,Pinot Grigio 2015,9,White,White,4,TRUE
+5,Dave,Malbec,1,Red,Red,3,TRUE,Riesling 2016*,5,White,White,2,TRUE
+5,Heather,Malbec,1,Red,Red,5,TRUE,Riesling 2016*,5,White,White,5,TRUE
+5,Jon,Malbec,1,Red,Red,3,TRUE,Riesling 2016*,5,White,White,4,TRUE
+5,Katie,Malbec,1,Red,Red,3,TRUE,Riesling 2016*,5,White,White,5,TRUE
+5,Matt G,Malbec,1,Red,White,1,FALSE,Riesling 2016*,5,White,White,4,TRUE
+5,Blair,Malbec,1,Red,Red,4,TRUE,Riesling 2016*,5,White,White,2,TRUE
+5,Mike,Malbec,1,Red,Red,4,TRUE,Riesling 2016*,5,White,White,5,TRUE
+5,Roberto,Malbec,1,Red,Red,1,TRUE,Riesling 2016*,5,White,White,2,TRUE
+6,Dave,Dornfelder,2,Red,Red,2,TRUE,Pinot Grigio 2015,9,White,White,3,TRUE
+6,Heather,Dornfelder,2,Red,Red,1,TRUE,Pinot Grigio 2015,9,White,White,2,TRUE
+6,Jon,Dornfelder,2,Red,White,1,FALSE,Pinot Grigio 2015,9,White,Red,2,FALSE
+6,Katie,Dornfelder,2,Red,Rose,4,FALSE,Pinot Grigio 2015,9,White,Red,3,FALSE
+6,Matt G,Dornfelder,2,Red,Red,2,FALSE,Pinot Grigio 2015,9,White,Red,3,FALSE
+6,Blair,Dornfelder,2,Red,Rose,3,TRUE,Pinot Grigio 2015,9,White,White,3,TRUE
+6,Mike,Dornfelder,2,Red,Red,3,TRUE,Pinot Grigio 2015,9,White,White,1,TRUE
+6,Roberto,Dornfelder,2,Red,White,4,TRUE,Pinot Grigio 2015,9,White,White,4,TRUE
+7,Dave,Riesling 2016*,5,White,White,2,TRUE,Bordeaux,8,Red,Red,3,TRUE
+7,Heather,Riesling 2016*,5,White,White,4,TRUE,Bordeaux,8,Red,Red,5,TRUE
+7,Jon,Riesling 2016*,5,White,White,4,TRUE,Bordeaux,8,Red,Red,1,TRUE
+7,Katie,Riesling 2016*,5,White,White,4,TRUE,Bordeaux,8,Red,Red,3,TRUE
+7,Matt G,Riesling 2016*,5,White,White,3,TRUE,Bordeaux,8,Red,White,3,FALSE
+7,Blair,Riesling 2016*,5,White,White,3,TRUE,Bordeaux,8,Red,Red,4,TRUE
+7,Mike,Riesling 2016*,5,White,White,3,TRUE,Bordeaux,8,Red,Red,4,TRUE
+7,Roberto,Riesling 2016*,5,White,White,3,TRUE,Bordeaux,8,Red,Red,2,TRUE
+8,Dave,Dornfelder,2,Red,Red,1,TRUE,Bordeaux,8,Red,Red,3,TRUE
+8,Heather,Dornfelder,2,Red,White,1,FALSE,Bordeaux,8,Red,Red,3,TRUE
+8,Jon,Dornfelder,2,Red,Rose,2,FALSE,Bordeaux,8,Red,Red,2,TRUE
+8,Katie,Dornfelder,2,Red,Rose,3,FALSE,Bordeaux,8,Red,Red,1,TRUE
+8,Matt G,Dornfelder,2,Red,Red,5,TRUE,Bordeaux,8,Red,Rose,3,FALSE
+8,Blair,Dornfelder,2,Red,Rose,3,FALSE,Bordeaux,8,Red,Red,3,TRUE
+8,Mike,Dornfelder,2,Red,Red,3,TRUE,Bordeaux,8,Red,White,3,FALSE
+8,Roberto,Dornfelder,2,Red,White,4,FALSE,Bordeaux,8,Red,White,1,FALSE
+9,Dave,Merlot,7,Red,Red,2,TRUE,Pinot Grigio 2015,9,White,White,3,TRUE
+9,Heather,Merlot,7,Red,Red,3,TRUE,Pinot Grigio 2015,9,White,White,3,TRUE
+9,Jon,Merlot,7,Red,Red,1,TRUE,Pinot Grigio 2015,9,White,Red,4,FALSE
+9,Katie,Merlot,7,Red,Red,2,TRUE,Pinot Grigio 2015,9,White,White,2,TRUE
+9,Matt G,Merlot,7,Red,White,0,FALSE,Pinot Grigio 2015,9,White,Rose,3,FALSE
+9,Blair,Merlot,7,Red,Red,4,TRUE,Pinot Grigio 2015,9,White,White,3,TRUE
+9,Mike,Merlot,7,Red,Red,2,TRUE,Pinot Grigio 2015,9,White,White,3,TRUE
+9,Roberto,Merlot,7,Red,Red,2,TRUE,Pinot Grigio 2015,9,White,White,3,TRUE
+10,Dave,Riesling 2016*,9,White,White,4,TRUE,Merlot,7,Red,Red,3,TRUE
+10,Heather,Riesling 2016*,9,White,White,4,TRUE,Merlot,7,Red,Red,5,TRUE
+10,Jon,Riesling 2016*,9,White,White,5,TRUE,Merlot,7,Red,Red,2,TRUE
+10,Katie,Riesling 2016*,9,White,White,4,TRUE,Merlot,7,Red,Red,1,TRUE
+10,Matt G,Riesling 2016*,9,White,Rose,3,FALSE,Merlot,7,Red,Red,0,TRUE
+10,Blair,Riesling 2016*,9,White,White,3,TRUE,Merlot,7,Red,Red,5,TRUE
+10,Mike,Riesling 2016*,9,White,White,4,TRUE,Merlot,7,Red,Red,4,TRUE
+10,Roberto,Riesling 2016*,9,White,White,3,TRUE,Merlot,7,Red,Red,2,TRUE

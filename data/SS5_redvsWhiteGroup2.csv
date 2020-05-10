@@ -1,0 +1,61 @@
+﻿case,guesser,wine1,wine1_number,wine1_color,wine1_guess,wine1_rating,wine1_correct,wine2,wine2_number,wine2_color,wine2_guess,wine2_rating,wine2_correct
+1,Rachel,Port,1,Red,Red,2,TRUE,Bordeaux,4,Red,White,1,FALSE
+1,Jo,Port,1,Red,Rose,3,FALSE,Bordeaux,4,Red,Red,1,TRUE
+1,Dzhuliya,Port,1,Red,White,3,FALSE,Bordeaux,4,Red,White,4,FALSE
+1,Katie,Port,1,Red,Red,1,TRUE,Bordeaux,4,Red,White,3,FALSE
+2,Rachel,Pinot Grigio,5,White,Rose,3,FALSE,Rose,6,Rose,White,3,FALSE
+2,Jo,Pinot Grigio,5,White,White,3,TRUE,Rose,6,Rose,White,2,FALSE
+2,Dzhuliya,Pinot Grigio,5,White,White,4,TRUE,Rose,6,Rose,White,4,FALSE
+2,Katie,Pinot Grigio,5,White,,5,,Rose,6,Rose,White,5,FALSE
+3,Rachel,Port,1,Red,Red,1,TRUE,Pinot Grigio,5,White,White,2,TRUE
+3,Jo,Port,1,Red,Red,3,TRUE,Pinot Grigio,5,White,White,1,TRUE
+3,Dzhuliya,Port,1,Red,Red,3,TRUE,Pinot Grigio,5,White,White,3,TRUE
+3,Katie,Port,1,Red,Red,1,TRUE,Pinot Grigio,5,White,White,4,TRUE
+4,Rachel,Chardonnay,2,White,Rose,3,FALSE,Bordeaux,4,Red,Red,2,TRUE
+4,Jo,Chardonnay,2,White,Red,3,FALSE,Bordeaux,4,Red,Red,1,TRUE
+4,Dzhuliya,Chardonnay,2,White,White,1,TRUE,Bordeaux,4,Red,White,2,FALSE
+4,Katie,Chardonnay,2,White,Red,4,FALSE,Bordeaux,4,Red,Red,2,TRUE
+5,Rachel,Port,1,Red,Red,2,TRUE,Syrah,3,Red,White,3,FALSE
+5,Jo,Port,1,Red,Red,1,TRUE,Syrah,3,Red,Red,3,TRUE
+5,Dzhuliya,Port,1,Red,Red,2,TRUE,Syrah,3,Red,Red,3,TRUE
+5,Katie,Port,1,Red,Red,1,TRUE,Syrah,3,Red,Red,3,TRUE
+6,Rachel,Bordeaux,4,Red,Red,4,TRUE,Pinot Grigio,5,White,Rose,3,FALSE
+6,Jo,Bordeaux,4,Red,Red,2,TRUE,Pinot Grigio,5,White,White,3,TRUE
+6,Dzhuliya,Bordeaux,4,Red,Red,2,TRUE,Pinot Grigio,5,White,White,3,TRUE
+6,Katie,Bordeaux,4,Red,Red,2,TRUE,Pinot Grigio,5,White,White,5,TRUE
+7,Rachel,Syrah,3,Red,Red,3,TRUE,Rose,6,Rose,White,3,FALSE
+7,Jo,Syrah,3,Red,Red,3,TRUE,Rose,6,Rose,White,4,FALSE
+7,Dzhuliya,Syrah,3,Red,Red,2,TRUE,Rose,6,Rose,White,2,FALSE
+7,Katie,Syrah,3,Red,Red,1,TRUE,Rose,6,Rose,White,3,FALSE
+8,Rachel,Chardonnay,2,White,Red,2,FALSE,Rose,6,Rose,Rose,3,TRUE
+8,Jo,Chardonnay,2,White,Red,3,FALSE,Rose,6,Rose,White,2,FALSE
+8,Dzhuliya,Chardonnay,2,White,Rose,3,FALSE,Rose,6,Rose,White,2,FALSE
+8,Katie,Chardonnay,2,White,Red,3,FALSE,Rose,6,Rose,Rose,5,TRUE
+9,Rachel,Chardonnay,2,White,Red,3,FALSE,Syrah,3,Red,White,3,FALSE
+9,Jo,Chardonnay,2,White,Red,4,FALSE,Syrah,3,Red,Red,4,TRUE
+9,Dzhuliya,Chardonnay,2,White,White,3,TRUE,Syrah,3,Red,Red,2,TRUE
+9,Katie,Chardonnay,2,White,Red,4,FALSE,Syrah,3,Red,Red,3,TRUE
+10,Rachel,Syrah,3,Red,Red,3,TRUE,Bordeaux,4,Red,White,1,FALSE
+10,Jo,Syrah,3,Red,Red,3,TRUE,Bordeaux,4,Red,White,1,FALSE
+10,Dzhuliya,Syrah,3,Red,Red,3,TRUE,Bordeaux,4,Red,Red,2,TRUE
+10,Katie,Syrah,3,Red,Red,1,TRUE,Bordeaux,4,Red,White,3,FALSE
+11,Rachel,Bordeaux,4,Red,White,4,FALSE,Rose,6,Rose,Rose,3,TRUE
+11,Jo,Bordeaux,4,Red,Red,2,TRUE,Rose,6,Rose,White,4,FALSE
+11,Dzhuliya,Bordeaux,4,Red,,,,Rose,6,Rose,,,
+11,Katie,Bordeaux,4,Red,Red,1,TRUE,Rose,6,Rose,White,3,FALSE
+12,Rachel,Syrah,3,Red,Red,4,TRUE,Pinot Grigio,5,White,White,3,TRUE
+12,Jo,Syrah,3,Red,Red,3,TRUE,Pinot Grigio,5,White,White,3,TRUE
+12,Dzhuliya,Syrah,3,Red,,,,Pinot Grigio,5,White,,,
+12,Katie,Syrah,3,Red,Red,1,TRUE,Pinot Grigio,5,White,,5,
+13,Rachel,Port,1,Red,Red,1,TRUE,Chardonnay,2,White,White,2,TRUE
+13,Jo,Port,1,Red,Red,3,TRUE,Chardonnay,2,White,Red,3,FALSE
+13,Dzhuliya,Port,1,Red,,,,Chardonnay,2,White,,,
+13,Katie,Port,1,Red,Red,1,TRUE,Chardonnay,2,White,Red,3,FALSE
+14,Rachel,Port,1,Red,Red,1,TRUE,Rose,6,Rose,White,3,FALSE
+14,Jo,Port,1,Red,Red,3,TRUE,Rose,6,Rose,White,3,FALSE
+14,Dzhuliya,Port,1,Red,,,,Rose,6,Rose,,,
+14,Katie,Port,1,Red,Red,1,TRUE,Rose,6,Rose,White,3,FALSE
+15,Rachel,Chardonnay,2,White,White,2,TRUE,Pinot Grigio,5,White,White,3,TRUE
+15,Jo,Chardonnay,2,White,Red,3,FALSE,Pinot Grigio,5,White,White,3,TRUE
+15,Dzhuliya,Chardonnay,2,White,,,,Pinot Grigio,5,White,,,
+15,Katie,Chardonnay,2,White,Red,3,FALSE,Pinot Grigio,5,White,White,3,TRUE
