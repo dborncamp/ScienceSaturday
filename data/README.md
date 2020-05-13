@@ -44,7 +44,7 @@ where:
 
 * Beer - The name of the shitty beer
 * Beer_Letter - The randomly assigned letter
-* name1, name2 - All of the names of the participants
+* name1, name2 - The ratings (1 low 5 high), order of beer drinking, or notes for each person
 
 #### Notes
 * No one was blindfolded in this experiment
@@ -107,7 +107,7 @@ where:
 #### Notes
 * The pizzas were timed to arrive at the same time, but that didn't happen exactly, so they all had to go in the oven.
 * This was all blindfolded, and people were asked which chain they thought it was by raising their hand as all possibilities were called out.
-* Pepperoni was served first and then the cheese.
+* Cheese was served first, and then pepperoni.
 * The oven door broke in between serving some of the pizzas
 * Each slice of pizza was about an 1/8 of a pizza
 * Particpants were encouraged to not eat the entire slice.
