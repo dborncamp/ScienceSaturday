@@ -1,0 +1,13 @@
+group,wine_number,wine_type,wine_color,wine_name,price
+1,1,Port,Red,Taylor Fladgate Ruby,15.99
+1,2,Chardonnay,White,Russian River Valley,27.99
+1,3,Syrah,Red,M. David Petite Petit,19.99
+1,4,Bordeaux,Red,Grand Portail La Croix,16.99
+1,5,Pinot Grigio,White,Alois Lageder,18.99
+1,6,Rose,Rose,Des Bertands Elegance,19.99
+2,1,Port,Red,Fonseca Ruby Port,19.99
+2,2,Bordeaux,Red,Chateau Du Pin Rouge,14.99
+2,3,Syrah,Red,Luca Syrah Laborde,24.99
+2,4,Chardonnay,White,La Crema SC,22.99
+2,5,Pinot Grigio,White,Santa Margarita,29.99
+2,6,Rose,Rose,Tamary,18.99
