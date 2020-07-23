@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+plt.xkcd()
+
 tab = pd.read_csv('../data/SS7_skittles.csv',index_col=0)
 colors = ['g','darkorange','purple','r','gold']
 
