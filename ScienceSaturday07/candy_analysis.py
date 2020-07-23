@@ -87,7 +87,7 @@ if __name__ == "__main__":
     parser.add_argument('--candy',
                         type = str, 
                         default = None,
-                        choices = ['all','skittles','starburst','gummybears'], 
+                        choices = ['all','skittles','starburst','gummybears','sourpatches'], 
                         help='Which plots to do you want to produce?')
 
     opts = {'skittles':{'candy':'skittles',
@@ -95,7 +95,9 @@ if __name__ == "__main__":
             'starburst':{'candy':'starburst',
                          'colors':['darkorange','pink','r','gold']},
             'gummybears':{'candy':'gummybears',
-                          'colors':['green', 'darkorange', 'r', 'beige', 'gold']}
+                          'colors':['green', 'darkorange', 'r', 'beige', 'gold']},
+            'sourpatches':{'candy':'sourpatches',
+                           'colors':['blue','green','darkorange','r','gold']}
             }
 
     args = parser.parse_args()
