@@ -31,3 +31,11 @@ As much as I *REALLY* hate using notebooks (and I think they should never be use
 ## The Data
 I have cleaned the data from the google sheet (https://docs.google.com/spreadsheets/d/1clTSVXBHpFB_4yqkAQhzvsDoVax4SZUYpGdbCy7FZ6U/edit#gid=329859720) a little and it should be easily readable using a Pandas dataframe.
 See the Python notebooks in `lib` to do this.
+
+## Future Science Saturdays
+Below are some ideas that have been floated for future Science Saturday adventures:
+
+- Cold red wine same as white wine? (reverse of SS1)
+- Should we test different priced vodkas?
+- Let's test chocolate!
+- Coffee coffee coffee
