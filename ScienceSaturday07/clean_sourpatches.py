@@ -23,8 +23,8 @@ def clean_data(guesser,cols):
 
 
 df_list = []
-guessers = ['Tyler','Jenna','Keira']
-cols = ['F:H','F:H','L:N']
+guessers = ['Rachel','Tyler','Jenna','Keira']
+cols = ['J:L','F:H','F:H','L:N']
 
 for i,guesser in enumerate(guessers):
 
