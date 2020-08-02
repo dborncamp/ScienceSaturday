@@ -12,7 +12,7 @@ import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
 
-matplotlib.style.use('ggplot')
+plt.xkcd()
 
 def read_tables():
 
