@@ -191,3 +191,20 @@ where:
 * We tried to control by size, but people didn't always follow that guideline, so the cookies that were bigger were liked more because they were overall softer cookies (generally speaking).
 * Blindfolds were used when eating cookies
 * The chocolatey was very much biased by the bite of cookie that you took, and a lot of people only took 1 bite
+
+
+## Science Saturday 8: What is the best Octoberfest beer?
+
+* SS8_octoberfest.csv
+
+#### Columns
+
+  * Beer - Brand of beer
+  * Drinker - Person rating the beer.
+  * Round - When was this beer drunk.
+  * Cup - Within the round, which cup was assiged to the beer.
+  * Rating - On a scale on 1 to 5 (5 being highest), what score does this beer get. Zeros not allowed.
+
+#### Notes
+
+Each person was served ~2 ounces of each beer. There were 18 beers in total, served in 9 rounds. Within each round, the drinker was given two samples to taste. Drinkers took breaks afters rounds 3 and 6. The order of the samples was randomized by the servers, with the exception of the Sam Adams, which were always served together to try to ascertain whether keg or bottle tasted better.
