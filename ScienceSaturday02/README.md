@@ -13,8 +13,7 @@ We had a total of 18 different beers (Table 1). The beers were placed in clear p
 
 #### Results
 
-`mean_scores.py` plots the mean scores. 
+`mean_scores.py` plots the mean scores and outputs the file SS02_01.png
 
 `Individual_scores.ipynb` contains the the scores by individual. Because this is an interactive plot, it needs to be run in a Jupyter notebook.
 
-`InitialBeer.ipynb` makes a box plot of the results. Because this is an interactive plot, it needs to be run in a Jupyter notebook.

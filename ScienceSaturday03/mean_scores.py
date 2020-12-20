@@ -1,31 +1,33 @@
-import pandas as pd
-import numpy as np
+'''
+Script to make figure 1 of Science Saturday 3.
+The output is the PNG file
+SS02_01.png
+'''
+
+#Imports
 import matplotlib.pyplot as plt
 import matplotlib
+from ipywidgets import interact
+import pandas as pd
 
-matplotlib.style.use('bmh')
+plt.xkcd()
 
-cols = ['maroon','goldenrod']
-plt.figure(figsize=(12,5))
-for i,filename in enumerate(['red','white']):
+#Reading in the data and cleaning up a little
+red = pd.read_csv('../data/SS3_red.csv',index_col='price')
+del red['Name']
+del red['Averages']
+red.sort_index(inplace=True)
 
-    a = pd.read_csv('../data/SS3_'+filename+'.csv',index_col='price')
+wht = pd.read_csv('../data/SS3_white.csv',index_col='price')
+del wht['Name']
+del wht['Averages']
+wht.sort_index(inplace=True)
 
-    winenames = a['Name']
-    del a['Name']
-    del a['Averages']
-
-    a.sort_index(inplace=True)
-    a = a.T
-
-    means = a.mean()
-    stds = a.std()
-    stderr = stds/np.sqrt(a.count())
-
-    plt.errorbar(np.array(means.index),means,yerr=stderr,fmt='o',color=cols[i],label=filename)
-
-plt.xlabel('Price')
-plt.ylabel('Mean score')
-plt.legend(loc=3)
-plt.suptitle('Is more expensive wine better?',fontsize='x-large')
-plt.savefig('score_vs_price.png')
+ax = red.mean(axis=1).plot(yerr=red.std(axis=1),figsize=(12,5),marker='.',markersize=15,color='maroon',label='Red wine')
+ax = wht.mean(axis=1).plot(ax=ax,marker='.',yerr=wht.std(axis=1),markersize=15,color='goldenrod',label='White wine')
+ax.set_title('Average scores',fontsize='x-large')
+ax.set_xlabel('Price [$]',fontsize='medium')
+ax.set_ylabel('Rating',fontsize='medium')
+ax.set_ylim(0.5,5.5)
+ax.legend()
+plt.savefig('SS02_01.png',bbox_inches='tight')
