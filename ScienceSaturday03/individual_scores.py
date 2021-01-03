@@ -1,83 +1,89 @@
-from bokeh.plotting import figure,output_file,show
-from bokeh.models import ColumnDataSource,Select
-from bokeh.layouts import row
-from bokeh.io import curdoc,show,output_file
+'''
+Script to make an interactivate Bokeh plot to show how each
+person graded the different wines in this test.
+
+Require python packages: pandas, bokeh
+
+To run:
+
+    bokeh serve --show individual_scores.py
+
+'''
 import pandas as pd
 
-#Reading in the data and cleaning up a little
-red = pd.read_csv('../data/SS3_red.csv',index_col='price')
-del red['Name']
-del red['Averages']
-red.sort_index(inplace=True)
-
-wht = pd.read_csv('../data/SS3_white.csv',index_col='price')
-del wht['Name']
-del wht['Averages']
-wht.sort_index(inplace=True)
-
-red_src = ColumnDataSource(data=red)
-wht_src = ColumnDataSource(data=wht)
-
-def update_plot(attr, old, new):
-    # If the new Selection is 'female_literacy', update 'y' to female_literacy
-    if new == 'female_literacy':
-        source.data = {
-            'x' : fertility,
-            'y' : female_literacy
-        }
-    # Else, update 'y' to population
-    else:
-        source.data = {
-            'x' : fertility,
-            'y' : population
-        }
+from bokeh.io import curdoc
+from bokeh.layouts import row
+from bokeh.models import ColumnDataSource, Select
+from bokeh.plotting import figure
 
 
-select = Select(title = "Select drinker:", 
-                value = "", 
-                options = [""] + red.columns.to_list()
-                )
+def get_dataset(src, name):
+    df = src[name].copy()
+    data = {'price':df.index.to_list(),
+            'rating':df.to_list()}
 
-# Create a new plot: plot
-p = figure(y_range=(-0.5,5.5))
+    return ColumnDataSource(data)
 
-# Add circles to the plot
-p.line('price', 'Roberto',source=red_src,color='maroon',
-        line_width=3,
-        legend_label='Red wine')
-p.circle('price', 'Roberto',source=red_src,color='maroon',
-        legend_label='Red wine',
-        size=10)
+def make_plot(source1,source2, title):
+    plot = figure(plot_width=800, tools="", toolbar_location=None,
+                  y_range=(-0.5,5.5))
+    plot.title.text = title
+    plot.title.text_font_size = '18pt'
 
-p.line('price', 'Roberto',source=wht_src,color='goldenrod',
-        line_width=3,
-        legend_label='White wine')
-p.circle('price', 'Roberto',source=wht_src,color='goldenrod',
-        legend_label='White wine',
-        size=10)
+    plot.line(source=source1,x='price',y='rating',
+              color='maroon', line_width=3, legend_label='Red wine')
+    plot.circle(source=source1,x='price',y='rating',
+                color='maroon', size=10, legend_label='Red wine')
 
-p.xaxis.axis_label = 'Price [$]'
-p.xaxis.axis_label_text_font_size = '14pt'
-#p.xaxis.axis_label_text_font_style = 'bold'
+    plot.line(source=source2,x='price',y='rating',
+              color='goldenrod', line_width=3, legend_label='White wine')
+    plot.circle(source=source2,x='price',y='rating',
+                color='goldenrod', size=10, legend_label='White wine')
 
-p.yaxis.axis_label = 'Rating'
-p.yaxis.axis_label_text_font_size = '14pt'
-#p.yaxis.axis_label_text_font_style = 'bold'
+    # fixed attributes
+    plot.xaxis.axis_label = 'Price [$]'
+    plot.xaxis.axis_label_text_font_size = '14pt'
 
-p.xaxis.major_label_text_font_size = '12pt'
-p.yaxis.major_label_text_font_size = '12pt'
+    plot.yaxis.axis_label = 'Rating'
+    plot.yaxis.axis_label_text_font_size = '14pt'
+
+    plot.xaxis.major_label_text_font_size = '12pt'
+    plot.yaxis.major_label_text_font_size = '12pt'
+
+    return plot
+
+def update_plot(attrname, old, new):
+    name = name_select.value
+    plot.title.text = name
+
+    src = get_dataset(df_red,name)
+    source_red.data.update(src.data)
+
+    src = get_dataset(df_wht,name)
+    source_wht.data.update(src.data)
 
 
-# Create a dropdown Select widget: select
-#select = Select(title="distribution", options=['female_literacy', 'population'], value='female_literacy')
 
-# Attach the update_plot callback to the 'value' property of select
-select.on_change('value', update_plot)
+df_red = pd.read_csv('../data/SS3_red.csv',index_col='price')
+del df_red['Name']
+del df_red['Averages']
+df_red.sort_index(inplace=True)
 
-# Create layout and add to current document
-layout = row(select,p)
-curdoc().add_root(layout)
+df_wht = pd.read_csv('../data/SS3_white.csv',index_col='price')
+del df_wht['Name']
+del df_wht['Averages']
+df_wht.sort_index(inplace=True)
 
 
-#output_file('test.html')
-show(p)
+name_select = Select(value='Roberto',title='Pick a sommelier', 
+                     options=df_red.columns.to_list())
+
+source_red = get_dataset(df_red,'Roberto')
+source_wht = get_dataset(df_wht,'Roberto')
+plot = make_plot(source_red,source_wht, 'Roberto')
+
+name_select.on_change('value', update_plot)
+
+curdoc().add_root(row(plot, name_select))
+curdoc().title = "Science Saturday 3"
+

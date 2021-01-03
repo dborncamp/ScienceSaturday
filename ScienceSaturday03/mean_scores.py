@@ -1,7 +1,7 @@
 '''
 Script to make figure 1 of Science Saturday 3.
 The output is the PNG file
-SS02_01.png
+SS03_01.png
 '''
 
 #Imports
@@ -30,4 +30,4 @@ ax.set_xlabel('Price [$]',fontsize='medium')
 ax.set_ylabel('Rating',fontsize='medium')
 ax.set_ylim(0.5,5.5)
 ax.legend()
-plt.savefig('SS02_01.png',bbox_inches='tight')
+plt.savefig('SS03_01.png',bbox_inches='tight')
