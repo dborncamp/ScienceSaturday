@@ -1,8 +1,10 @@
 # Science Saturday
-Welcome to the repo for the Science Saturday Team.
-The goal of this repo is to collaborate to publish a paper for April 1, 2018 archive papers.
+Welcome to the repo for the Science Saturday Analysis Team. This repo contains the data and scripts used in the analysis. The data come from the various tests conducting as part of the ongoing **Science Saturdays** project. 
 
-Here we have the Data, programs to make plots, and latex manuscript of paper.
+The results from the various investigations are published via the project website.
+
+[www.science-saturdays.space](www.science-saturdays.space)
+
 
 ## To collaborate
 If there is something you want to have a discussion about, open an issue about it and we can discuss it.
@@ -29,13 +31,14 @@ As much as I *REALLY* hate using notebooks (and I think they should never be use
 
 
 ## The Data
-I have cleaned the data from the google sheet (https://docs.google.com/spreadsheets/d/1clTSVXBHpFB_4yqkAQhzvsDoVax4SZUYpGdbCy7FZ6U/edit#gid=329859720) a little and it should be easily readable using a Pandas dataframe.
-See the Python notebooks in `lib` to do this.
+
+The raw data can be found in this [https://docs.google.com/spreadsheets/d/1clTSVXBHpFB_4yqkAQhzvsDoVax4SZUYpGdbCy7FZ6U/edit#gid=329859720](Google Sheet). We have attempted to clean up the data in various ways. Early attempts involved using the notebook found in the `lib` directory. 
+Currently, the data is cleaned up manually and placed in the `data` directory. For the most part, these data files are easily readable using pandas. See the README file found in that directory for further details.  
 
 ## Future Science Saturdays
 Below are some ideas that have been floated for future Science Saturday adventures:
 
-- Cold red wine same as white wine? (reverse of SS1)
 - Should we test different priced vodkas?
 - Let's test chocolate!
 - Coffee coffee coffee
+- Name brand vs generic
