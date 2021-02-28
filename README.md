@@ -1,9 +1,9 @@
 # Science Saturday
-Welcome to the repo for the Science Saturday Analysis Team. This repo contains the data and scripts used in the analysis. The data come from the various tests conducting as part of the ongoing **Science Saturdays** project. 
+Welcome to the repo for the Science Saturdays Analysis Team. This repo contains the data and scripts used in the analysis. The data come from the various tests conducted as part of the ongoing **Science Saturdays** project. 
 
 The results from the various investigations are published via the project website.
 
-[www.science-saturdays.space](www.science-saturdays.space)
+[www.science-saturdays.space](https://www.science-saturdays.space)
 
 
 ## To collaborate
@@ -32,7 +32,7 @@ As much as I *REALLY* hate using notebooks (and I think they should never be use
 
 ## The Data
 
-The raw data can be found in this [https://docs.google.com/spreadsheets/d/1clTSVXBHpFB_4yqkAQhzvsDoVax4SZUYpGdbCy7FZ6U/edit#gid=329859720](Google Sheet). We have attempted to clean up the data in various ways. Early attempts involved using the notebook found in the `lib` directory. 
+The raw data can be found in this [Google Sheet](https://docs.google.com/spreadsheets/d/1clTSVXBHpFB_4yqkAQhzvsDoVax4SZUYpGdbCy7FZ6U/edit#gid=329859720). We have attempted to clean up the data in various ways. Early attempts involved using the notebook found in the `lib` directory. 
 Currently, the data is cleaned up manually and placed in the `data` directory. For the most part, these data files are easily readable using pandas. See the README file found in that directory for further details.  
 
 ## Future Science Saturdays
