@@ -33,11 +33,11 @@ def plot_characteristic(characteristic):
                            },
             'Bite': {'xlims':[1,4],
                      'xlabels':['Very crunchy','Crunchy','Chewy','Cakey'],
-                     'colors' : {1:'tomato', 2:'darkorange', 3:'gold', 4:'seagreen'},
+                     'colors' : {1:'tomato', 2:'gold', 3:'seagreen', 4:'darkorange'},
                      },
             'ChocolateFlavor': {'xlims':[1,3],
                                 'xlabels':['Not choc.','Choc.','Too (very) choc.'],
-                                'colors' : {1:'tomato', 2:'gold', 3:'seagreen'}
+                                'colors' : {1:'tomato', 2:'seagreen', 3:'gold'}
                                 },
             'Moistness': {'xlims':[1,3],
                           'xlabels':['Dry','Neutral','Moist'],
@@ -49,7 +49,7 @@ def plot_characteristic(characteristic):
                                    },
             'Sweetness': {'xlims':[1,3],
                           'xlabels':['Not sweet','Sweet','Super sweet'],
-                          'colors' : {1:'tomato', 2:'gold', 3:'seagreen'}
+                          'colors' : {1:'tomato', 2:'seagreen', 3:'gold'}
                           },
             }
 
