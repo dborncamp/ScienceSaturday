@@ -11,5 +11,7 @@
 #### Results
 `mean_scores.py` plots the mean scores.
 
-`Individual_scores.ipynb` contains the the scores by individual. Because this is an interactive plot, it needs to be run in a Jupyter notebook.
+`individual_scores.py` contains the the scores by individual. This is an interactivate Bokeh plot, therefore Bokeh is required. To run:
+
+```bokeh serve --show individual_scores.py```
 
