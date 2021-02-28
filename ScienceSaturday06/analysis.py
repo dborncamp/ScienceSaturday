@@ -7,8 +7,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import ticker
 import argparse
+import numpy as np
 
-#As always, we use xkcd style around these parts. 
+#As always, we use xkcd style around these parts.
 plt.xkcd()
 
 def plot_characteristic(characteristic):
@@ -27,17 +28,29 @@ def plot_characteristic(characteristic):
     '''
 
     opts = {'Appearance': {'xlims':[1,3],
-                           'xlabels':['Probably not','Would eat','Martha Stewart']},
+                           'xlabels':['Probably not','Would eat','Martha Stewart'],
+                           'colors' : {1:'tomato', 2:'gold', 3:'seagreen'}
+                           },
             'Bite': {'xlims':[1,4],
-                     'xlabels':['Very crunchy','Crunchy','Chewy','Cakey']},
+                     'xlabels':['Very crunchy','Crunchy','Chewy','Cakey'],
+                     'colors' : {1:'tomato', 2:'darkorange', 3:'gold', 4:'seagreen'},
+                     },
             'ChocolateFlavor': {'xlims':[1,3],
-                                'xlabels':['Not choc.','Choc.','Too (very) choc.']},
+                                'xlabels':['Not choc.','Choc.','Too (very) choc.'],
+                                'colors' : {1:'tomato', 2:'gold', 3:'seagreen'}
+                                },
             'Moistness': {'xlims':[1,3],
-                          'xlabels':['Dry','Neutral','Moist']},
+                          'xlabels':['Dry','Neutral','Moist'],
+                          'colors' : {1:'tomato', 2:'gold', 3:'seagreen'}
+                          },
             'PersonalPreference': {'xlims':[0,5],
-                                   'xlabels':['Coffin','Throwing up','Sweat sad face','Shrug','Drool','Head exploding']},
+                                   'xlabels':['Coffin','Throwing up','Sweat sad face','Shrug','Drool','Head exploding'],
+                                   'colors' : {0:'slategrey', 1:'tomato', 2:'darkorange', 3:'gold', 4:'greenyellow', 5:'seagreen'}
+                                   },
             'Sweetness': {'xlims':[1,3],
-                          'xlabels':['Not sweet','Sweet','Super sweet']},
+                          'xlabels':['Not sweet','Sweet','Super sweet'],
+                          'colors' : {1:'tomato', 2:'gold', 3:'seagreen'}
+                          },
             }
 
 
@@ -45,10 +58,11 @@ def plot_characteristic(characteristic):
 
     del a['Cookie']
 
+    colors = [opts[characteristic]['colors'][np.round(temp_mean)] for temp_mean in a.mean(axis=1)]
     fig,ax = plt.subplots(1,1,figsize=(12,8),num=characteristic)
-
     a.mean(axis=1).plot(kind='barh',xerr=a.std(axis=1),
-                        title=characteristic,fig=fig,ax=ax)
+                        title=characteristic,fig=fig,ax=ax,
+                        color=colors)
 
     ax.set_xlim(0.5,opts[characteristic]['xlims'][1])
     ax.invert_yaxis()
@@ -61,6 +75,7 @@ def plot_characteristic(characteristic):
 
     plt.tight_layout()
     plt.savefig(f'cookie{characteristic}.png')
+    print(f'Saved: cookie{characteristic}.png')
 
 
 def plot_all(choices):
@@ -82,7 +97,7 @@ if __name__ == "__main__":
     choices = ['all','Appearance','Bite','ChocolateFlavor','Moistness','PersonalPreference','Sweetness']
 
     parser = argparse.ArgumentParser(description="What's in a cookie?")
-    parser.add_argument('--characteristic',
+    parser.add_argument('--characteristic', '-c',
                         type = str,
                         default = None,
                         choices = choices,
@@ -90,11 +105,13 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    if args.characteristic== 'all':
+    if not args.characteristic:
+        raise ValueError(f'Please select a characteristic to plot: {choices}.')
+
+    elif args.characteristic == 'all':
 
         plot_all(choices)
 
     else:
 
         a = plot_characteristic(args.characteristic)
-
