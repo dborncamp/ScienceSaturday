@@ -1,4 +1,4 @@
-# Science Saturday 8 - What's in a cookie?
+# Science Saturday 6 - What's in a cookie?
 
 - Date: 
 - Location: Remington Row Party Room
@@ -12,7 +12,7 @@ We wanted to explore the parameters that make a chocolate cookie good.
 
 ### Recipes
 
-We started with a base recipe, ----------, which was then modified one ingredient at a time to see how that affected the cookie. 
+We started with a base recipe, [Nestle Toll House Chocolate Chip Cookies by Michael Chu](http://www.cookingforengineers.com/recipe/185/Nestle-Toll-House-Chocolate-Chip-Cookies), which was then modified one ingredient at a time to see how that affected the cookie. 
 
 - All brown sugar
 - 1 egg, 1c. milk & extra flour
