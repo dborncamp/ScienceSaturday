@@ -34,7 +34,7 @@ A survey showed that of our sample, 5 people mixed their dough by hand, 3 with t
 * In standard Science Saturday fashion, everyone was assigned a buddy to serve cookies and track scores.
 * The order the cookies were eaten in was randomly assigned, so no one ate the cookies in the same order.
 * All participants were blindfolded while tasting the cookies.
-* Everyone could eat as much or as little of a cookie as they wanted to score the different parameters. Most people ended up eating about half of a cookie, although some people would only take one bite which might have highly biased the chocolatey and sweetness results.
+* People were given half of a cookie to eat, and could eat as much or as little of it as they wanted. Some people would only take one bite which might have highly biased the chocolatey and sweetness results. Some cookies that Rachel made weren't able to be broken in half because of their small size and being baked longer than some of the others, so in those cases a full cookie was given.
 * People were allowed to talk and give there numbers (rather than holding up fingers) because there were so many parameters we were judging and all of the orders were random, and everyone eating was blindfolded.
 
 ### Recipes
