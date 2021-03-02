@@ -54,7 +54,8 @@ def plot_characteristic(characteristic):
             }
 
 
-    a = pd.read_csv(f'../data/SS6_cookie{characteristic}.csv',index_col='cookie_descrip')
+    a = pd.read_csv(f'../data/SS6_cookie{characteristic}.csv',
+                    index_col='cookie_descrip')
 
     del a['Cookie']
 
