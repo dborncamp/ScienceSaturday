@@ -14,22 +14,6 @@ Get someone else to review the PR and it will be merged and made into the final 
 It is good practice to have someone look over what you merge to master before you just push it straight to master (looking at you, almost everyone at ST with bad git practices).
 
 
-## Analysis Environment
-I assume that most people attending Science Saturday are best in Python so I have included some Python notebooks with my initial work.
-And since not everyone is able to use Docker or something like that I have included a txt file that includes all of the packages I used to do the analysis.
-To install the conta environment from the file use:
-
-`conda env create --file scilib-env.txt`
-
-
-If there is something that you need to add, please use conda and update the environment file so that we can all have what you needed for your code/plot.
-You can do this by using:
-
-`conda list --explicit > scilib-env.txt`
-
-As much as I *REALLY* hate using notebooks (and I think they should never be used for anything beyond a tutorial) that is probably what everyone else is most comfortable with so I have started putting in notebooks in the repo for everyone to get things started.
-
-
 ## The Data
 
 The raw data can be found in this [Google Sheet](https://docs.google.com/spreadsheets/d/1clTSVXBHpFB_4yqkAQhzvsDoVax4SZUYpGdbCy7FZ6U/edit#gid=329859720). We have attempted to clean up the data in various ways. Early attempts involved using the notebook found in the `lib` directory. 
