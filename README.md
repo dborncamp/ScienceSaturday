@@ -1,17 +1,17 @@
 # Science Saturday
 Welcome to the repo for the Science Saturdays Analysis Team. This repo contains the data and scripts used in the analysis. The data come from the various tests conducted as part of the ongoing **Science Saturdays** project. 
 
-The results from the various investigations are published via the project website.
+The results from the investigations are published via the project website.
 
 [www.science-saturdays.space](https://www.science-saturdays.space)
 
 
 ## To collaborate
-If there is something you want to have a discussion about, open an issue about it and we can discuss it.
+If there is something you want to have a discussion about, open an issue about it and we can talk about it.
 
-Otherwise if there is something you want to contribute, create a new branch and file a PR to merge it to master.
-Get someone else to review the PR and it will be merged and made into the final paper.
-It is good practice to have someone look over what you merge to master before you just push it straight to master (looking at you, almost everyone at ST with bad git practices).
+Otherwise if there is some analysis you want to contribute, fork the repo, create a new branch and file a PR to merge it to main.  Get someone else to review the PR and it will be merged. The products from your analysis might be used in the website. 
+
+It is good practice to have someone look over what you merge to main before you just push it straight to main (looking at you, almost everyone at ST with bad git practices).
 
 
 ## The Data
