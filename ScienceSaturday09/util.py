@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 def get_data():
 
-    tab = pd.read_csv('SS9_Results.csv',index_col=[0,1])
-    cat = pd.read_csv('SS9_BeerCatalog.csv',index_col=0)
+    tab = pd.read_csv('../data/SS9_Results.csv',index_col=[0,1])
+    cat = pd.read_csv('../data/SS9_BeerCatalog.csv',index_col=0)
 
 
     #Set the right data types of results table
