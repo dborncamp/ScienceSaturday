@@ -1,101 +1,101 @@
 Beer,Info,Roberto,Matt B.,Matt D.,Rachel,Keira,Jo
 Athletic Brewing Upside Down Golden,Number,13,15,5,13,15,14
-Athletic Brewing Upside Down Golden,Alcoholic,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+Athletic Brewing Upside Down Golden,Alcoholic,True,True,False,False,False,False
 Athletic Brewing Upside Down Golden,Style,lager,radler,IPA,Amber,Blonde,IPA
 Athletic Brewing Upside Down Golden,Rating,1,3,2,1,1,1
 Athletic Brewing Upside Down Golden,Comment,pretty gross. thinks it's the maui lager,"tonic water, citrusy",smells good.  fruity again. Fruity soda water. Nice fruity soda water with hops,Smells tastes hoppy. It's hoppy,"Citrusy, IPA-y, not very good",
 Bravus Brewing Amber,Number,17,18,17,17,11,3
-Bravus Brewing Amber,Alcoholic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Bravus Brewing Amber,Alcoholic,False,True,False,False,False,False
 Bravus Brewing Amber,Style,lager,Hefeweizen,Stout,Chocolate stout,Coffee Stout,
 Bravus Brewing Amber,Rating,1,4,1,2,3,1
 Bravus Brewing Amber,Comment,gross,better version of the last one,doesn't think will like from smell. Confirmed by taste. Watery. But darker.,Smells fruity for sure,"Smells like raspberry, but also coffee. Tastes like coffee.  ","It smells gross, smells like butt. Almost tastes like water and what it tastes like it's gross."
 Bravus Brewing Blonde,Number,20,2,16,4,9,12
-Bravus Brewing Blonde,Alcoholic,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bravus Brewing Blonde,Alcoholic,False,False,False,False,False,False
 Bravus Brewing Blonde,Style,amber,Blonde,sour? Fruit beer.,Literally water,Heffeweisen,Gose 
 Bravus Brewing Blonde,Rating,1,2,2,1,3,1
 Bravus Brewing Blonde,Comment,weird mouthfeel. ew. that's water,sweet,Very fruity.  Tastes like seltzer water with a little flavor. Some fruit.. fruity carbonated water. ,Smells like fruit tastes like water,"Really interesting, taste raspberry, watery, def fruit, lecroix",
 Bravus Brewing IPA,Number,14,10,4,10,7,19
-Bravus Brewing IPA,Alcoholic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Bravus Brewing IPA,Alcoholic,False,True,False,False,False,False
 Bravus Brewing IPA,Style,gose,hefeweizen,Fruit gose,Ipa,Raspberry Stout,Sour
 Bravus Brewing IPA,Rating,1,4,2,1,1,1
 Bravus Brewing IPA,Comment,full body reaction. gross,,Weird flavored soda water. Fruity something but isn't right gose,,"Something fruity, oh god",Mascarading as a sour. It's disgusting. If it's a real beer they should go out of business.
 Bravus Brewing Oatmeal Stout,Number,12,19,11,14,13,13
-Bravus Brewing Oatmeal Stout,Alcoholic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+Bravus Brewing Oatmeal Stout,Alcoholic,False,False,True,False,False,False
 Bravus Brewing Oatmeal Stout,Style,None,Ale,Black lager,Black,Oatmeal Stout,Stout
 Bravus Brewing Oatmeal Stout,Rating,1,3,3,1,1,1
 Bravus Brewing Oatmeal Stout,Comment,No. ,no opinion on if it's full bodied,"Darker something. Might be black lager.  Not great, not terrible",Most disgusting grossest thing ever,"Oh god, WTF. Gross. Tastes like cardboard'",Smells like wert again.
 Bravus Brewing Peanut Butter Stout,Number,6,5,19,8,10,9
-Bravus Brewing Peanut Butter Stout,Alcoholic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+Bravus Brewing Peanut Butter Stout,Alcoholic,False,False,False,True,False,False
 Bravus Brewing Peanut Butter Stout,Style,None,pilsner,Milk stout,chocolate stout,Porter,Peanut Butter Stout
 Bravus Brewing Peanut Butter Stout,Rating,1,2,2,4,4,1
 Bravus Brewing Peanut Butter Stout,Comment,smells gross. it's disgusting. like the farmhouse gross belgian ale,There is nothing interesting about this,Don't think will like. Chocolatey stouty beer. ,would smell all day. Was def pb stout then wasn't ,"Smells like popcorn, ooh I like this, yum, oh wow, not a fucking clue","Again, it smells like wort."
 Bravus Brewing Raspberry Gose,Number,19,12,20,20,2,18
-Bravus Brewing Raspberry Gose,Alcoholic,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bravus Brewing Raspberry Gose,Alcoholic,False,False,False,False,False,False
 Bravus Brewing Raspberry Gose,Style,sour,Gose,Gose,Lambic,Gose,Raspberry gose
 Bravus Brewing Raspberry Gose,Rating,2,2,3,5,1,3
 Bravus Brewing Raspberry Gose,Comment,,Fruity/tart,Fruity soda again. ,That's fruit juice!  Guessed gose but going with lambic since is closer to taste,"Ew, fruit juice",Very sweet. Raspberry flavor. 
 Dogfish Head 60 Min IPA,Number,8,9,6,16,1,15
-Dogfish Head 60 Min IPA,Alcoholic,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE
+Dogfish Head 60 Min IPA,Alcoholic,False,True,True,True,True,True
 Dogfish Head 60 Min IPA,Style,IPA,IPA,IPA,Ipa,IPA,Lager
 Dogfish Head 60 Min IPA,Rating,2,3,4,3,3,2
 Dogfish Head 60 Min IPA,Comment,"gross, pungent scent",,Pretty good.,Thinks is 60 min,hints of fruit,Smells like real beer. 
 Dogfish Head Super 8 Super Gose,Number,2,3,3,11,14,16
-Dogfish Head Super 8 Super Gose,Alcoholic,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Dogfish Head Super 8 Super Gose,Alcoholic,True,True,True,True,True,True
 Dogfish Head Super 8 Super Gose,Style,Sour,sour,Fruit gose,gose,Gose,Gose
-Dogfish Head Super 8 Super Gose,Rating,,4,4,4,1,3
+Dogfish Head Super 8 Super Gose,Rating,1,4,4,4,1,3
 Dogfish Head Super 8 Super Gose,Comment,,I like this,,,Uck. Gross. Not my beer,Smells like real beer. I wonder if it's a Dogfish Head.
 Hairless Dog Black Ale,Number,11,14,13,2,8,8
-Hairless Dog Black Ale,Alcoholic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+Hairless Dog Black Ale,Alcoholic,False,True,False,False,False,False
 Hairless Dog Black Ale,Style,IPA,stout,Bad stout,golden ale,Lemon Raddler,IPA
 Hairless Dog Black Ale,Rating,1,3,1,2,1,1
 Hairless Dog Black Ale,Comment,that is fucking gross. fake IPA,"tart, raspberry something stout?",Weird smell. Not good. No idea what that it trying to emulate.  Def. non alcoholic. Sour but in a bad way.,taste better than smell,"Smells gross, oh god, wtf, ugh",Smells like literal pickle juice sewage. This is the most disgusting thing I've ever tasted. 
 Left Hand Brewing Bittersweet Imperial Coffee Milk Stout,Number,15,16,18,12,6,17
-Left Hand Brewing Bittersweet Imperial Coffee Milk Stout,Alcoholic,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE
+Left Hand Brewing Bittersweet Imperial Coffee Milk Stout,Alcoholic,False,True,False,True,True,True
 Left Hand Brewing Bittersweet Imperial Coffee Milk Stout,Style,porter,PNB stout,Raspberry stout,Stout,Porter,Chocolate peanut butter porter
 Left Hand Brewing Bittersweet Imperial Coffee Milk Stout,Rating,2,5,1,3,4,5
 Left Hand Brewing Bittersweet Imperial Coffee Milk Stout,Comment,something off about it. raspberry porter?,"peanut butter ones, SBJ",Nope. Do not like. Abort. Single worse one I've tasted. Raspberry stout thing. Giving a -12. Awful,Heavy,Def coffee,Just from the smell it's a peanut butter stout. It's SBJ. 
 Left Hand Brewing Peanut Butter Milk Stout,Number,16,6,10,9,12,20
-Left Hand Brewing Peanut Butter Milk Stout,Alcoholic,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE
+Left Hand Brewing Peanut Butter Milk Stout,Alcoholic,True,True,True,True,False,True
 Left Hand Brewing Peanut Butter Milk Stout,Style,milk stout,stout,Chocolate raspberry stout. Might be peanut butter,Raspberry stout,Stout,Left Hand Peanut Butter Milk Stout
 Left Hand Brewing Peanut Butter Milk Stout,Rating,3,4,3,5,5,3
 Left Hand Brewing Peanut Butter Milk Stout,Comment,,im feeling hints of chocolate,Maybe smelled peanut butter. That is weird.,Oh really good. Was peanut butter then wasn't. Would drink all day,"Oh wow, that smells. What is that? WTF.  ",That is a beer. 
 Left Hand Brewing Raspberry Milk Stout,Number,10,1,15,1,20,7
-Left Hand Brewing Raspberry Milk Stout,Alcoholic,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Left Hand Brewing Raspberry Milk Stout,Alcoholic,False,False,True,False,False,True
 Left Hand Brewing Raspberry Milk Stout,Style,None,stout,gose,Raspberry gose,Gose,Raspberry Milk Stout
 Left Hand Brewing Raspberry Milk Stout,Rating,3,2,3,4,2,5
 Left Hand Brewing Raspberry Milk Stout,Comment,some kind of raspberry beer,,"smells fruity. Not sure about this. Fruity but also has a hop bitterness in it. Very confused by this one.  Not a gose, but doesn't know",,"Huh, thats weird.  This is weird.  No idea. Could be a stout or a gose",Guessed gose from smell and then changed mind.  
 Left Hand Brewing Wheels Gose Round,Number,18,17,12,7,16,10
-Left Hand Brewing Wheels Gose Round,Alcoholic,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
+Left Hand Brewing Wheels Gose Round,Alcoholic,True,False,True,False,True,True
 Left Hand Brewing Wheels Gose Round,Style,raspberry stout,Hefeweizen,Gose,gose,Gose,Sour
 Left Hand Brewing Wheels Gose Round,Rating,3,2,4,3,2,3
 Left Hand Brewing Wheels Gose Round,Comment,raspberry something for sure,,Smells fruity. Tastes fruity & tart.,,"Super sour, oof",
 Maui Brewing Bikini Blonde,Number,4,11,1,15,17,11
-Maui Brewing Bikini Blonde,Alcoholic,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
+Maui Brewing Bikini Blonde,Alcoholic,True,True,True,False,False,True
 Maui Brewing Bikini Blonde,Style,hefeweizen ,Blonde,LAGER,Blonde,Amber Ale,Blonde
 Maui Brewing Bikini Blonde,Rating,3,3,4,1,1,3
 Maui Brewing Bikini Blonde,Comment,not bad,Lemony,"Basic beer flavor, might be too high for first beer",No smell. Tastes like nothing.,"Smells like piss, ugh, ew",
 Partake Stout,Number,3,13,2,18,19,5
-Partake Stout,Alcoholic,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Partake Stout,Alcoholic,False,False,False,False,False,False
 Partake Stout,Style,pilsner,pilsner,Black,Ipa maybe,Stout,Porter
 Partake Stout,Rating,1,2,1,1,1,1
 Partake Stout,Comment,what is this. damn that's gross,"seltzer water, just tastes like carbonated water",That smells.....weird. That is weird. Taste of a stout but watery,Oof not good.  Gonna make me throw up ,"This is disgusting, horrible, they cannot sell this",Smells like pickle juice.  
 Paulaner Munchen,Number,9,8,8,3,18,2
-Paulaner Munchen,Alcoholic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+Paulaner Munchen,Alcoholic,False,False,True,False,False,False
 Paulaner Munchen,Style,lager,pilsner,Shandy. ,Grapefruit radler,Lemon Radler,Radler
 Paulaner Munchen,Rating,1,1,4,2,3,1
 Paulaner Munchen,Comment,very fruity,super sweet. what in the hell? this does not resemble beer,alcoholic half fruit half juice thing. like a shandy,Smells and tastes fruit juice. Doesn't taste alcohol but thinks still might be.,"Very lemony, sweet",Smells like carbonated soda.
 Salzburger Stiegal,Number,1,20,14,5,5,4
-Salzburger Stiegal,Alcoholic,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
+Salzburger Stiegal,Alcoholic,False,False,False,True,True,False
 Salzburger Stiegal,Style,None,radler,Radler,Grapefruit radler,Radler,Goss
 Salzburger Stiegal,Rating,3,1,5,2,5,2
 Salzburger Stiegal,Comment,"tastes like fruit juice, it's not bad",holy sweet. too sweet,fruity and sparkly from the smell. One of those radlers. Good fruit soda,Grapefruity,Grapefruit Radler for sure,"Tastes like fruit juice, maybe grapefruit."
 Sweet Baby Jesus,Number,5,7,7,19,4,6
-Sweet Baby Jesus,Alcoholic,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE
+Sweet Baby Jesus,Alcoholic,True,False,True,True,True,True
 Sweet Baby Jesus,Style,peanut butter stout,Ale,Choc peanut butter stout,Cpb porter,Stout,Peanut Butter Porter
 Sweet Baby Jesus,Rating,5,3,3,5,3,4
 Sweet Baby Jesus,Comment,"that's a stout, i can smell it. not sure if it's SBJ or different PB stout. think it's the SBJ",,smells like chocolate. yep. Maybe peanut butter.,Thinks is sweet baby jesus,"That is weird, def peanut butter",I think it's the left hand not the SBJ.
 Union Blackwing,Number,7,4,9,6,3,1
-Union Blackwing,Alcoholic,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+Union Blackwing,Alcoholic,True,False,True,True,True,False
 Union Blackwing,Style,amber,porter,Oatmeal stout,Stout,Stout,Stout
 Union Blackwing,Rating,2,3,3,4,4,3
 Union Blackwing,Comment,"tastes like nothing, but it isn't offensive",ooo. peanut butter. pretty good,Another chocolaty stouty things. ,Definitely stout,Chocolate aftertaste,Not very carbonated. 
