@@ -1,4 +1,5 @@
 #Some file types to ignore to save space
+*__pycache__
 .DS_Store
 **.ipynb_checkpoints/
 *.tar.gz
