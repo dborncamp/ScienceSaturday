@@ -1,73 +1,73 @@
-person,round,chip,score
-Rachel,1,Lays,2.0
-Rachel,2,Utz,5.0
-Rachel,3,Lays,3.0
-Rachel,4,Generic,4.0
-Rachel,5,Generic,1.0
-Rachel,6,Lays,2.0
-Rachel,7,Utz,5.0
-Rachel,8,Generic,5.0
-Rachel,9,Utz,4.0
-Matt D.,1,Lays,3.0
-Matt D.,2,Generic,5.0
-Matt D.,3,Lays,4.0
-Matt D.,4,Utz,2.0
-Matt D.,5,Generic,3.0
-Matt D.,6,Utz,4.0
-Matt D.,7,Utz,4.0
-Matt D.,8,Generic,3.0
-Matt D.,9,Lays,4.0
-Jo,1,Generic,5.0
-Jo,2,Utz,5.0
-Jo,3,Lays,3.0
-Jo,4,Lays,2.0
-Jo,5,Generic,4.0
-Jo,6,Generic,4.0
-Jo,7,Generic,2.0
-Jo,8,Lays,2.0
-Jo,9,Utz,5.0
-Roberto,1,Generic,4.0
-Roberto,2,Lays,3.0
-Roberto,3,Utz,5.0
-Roberto,4,Lays,3.0
-Roberto,5,Generic,4.0
-Roberto,6,Generic,4.0
-Roberto,7,Generic,4.0
-Roberto,8,Lays,2.0
-Roberto,9,Generic,4.0
-Jenna,1,Lays,1.0
-Jenna,2,Generic,4.0
-Jenna,3,Utz,2.0
-Jenna,4,Generic,4.0
-Jenna,5,Lays,3.0
-Jenna,6,Generic,4.0
-Jenna,7,Lays,1.0
-Jenna,8,Lays,2.0
-Jenna,9,Generic,3.0
-Tyler,1,Generic,2.0
-Tyler,2,Lays,2.0
-Tyler,3,Utz,3.0
-Tyler,4,Generic,4.0
-Tyler,5,Generic,4.0
-Tyler,6,Lays,2.0
-Tyler,7,Lays,3.0
-Tyler,8,Generic,5.0
-Tyler,9,Lays,5.0
-Keira,1,Utz,4.0
-Keira,2,Utz,4.0
-Keira,3,Utz,3.0
-Keira,4,Lays,2.0
-Keira,5,Lays,2.0
-Keira,6,Lays,2.0
-Keira,7,Generic,3.0
-Keira,8,Generic,3.0
-Keira,9,Generic,4.0
-Matt B.,1,Lays,2.0
-Matt B.,2,Lays,3.0
-Matt B.,3,Lays,2.0
-Matt B.,4,Utz,4.0
-Matt B.,5,Utz,5.0
-Matt B.,6,Utz,5.0
-Matt B.,7,Generic,2.0
-Matt B.,8,Lays,3.0
-Matt B.,9,Generic,2.0
+person,round,chip,score,guess/comment
+Rachel,1,Lays,2.0,
+Rachel,2,Utz,5.0,
+Rachel,3,Lays,3.0,
+Rachel,4,Generic,4.0,
+Rachel,5,Generic,1.0,Chip was brown
+Rachel,6,Lays,2.0,
+Rachel,7,Utz,5.0,
+Rachel,8,Generic,5.0,
+Rachel,9,Utz,4.0,
+Matt D.,1,Lays,3.0,
+Matt D.,2,Generic,5.0,
+Matt D.,3,Lays,4.0,
+Matt D.,4,Utz,2.0,
+Matt D.,5,Generic,3.0,
+Matt D.,6,Utz,4.0,
+Matt D.,7,Utz,4.0,
+Matt D.,8,Generic,3.0,
+Matt D.,9,Lays,4.0,
+Jo,1,Generic,5.0,
+Jo,2,Utz,5.0,
+Jo,3,Lays,3.0,
+Jo,4,Lays,2.0,
+Jo,5,Generic,4.0,
+Jo,6,Generic,4.0,
+Jo,7,Generic,2.0,
+Jo,8,Lays,2.0,
+Jo,9,Utz,5.0,
+Roberto,1,Generic,4.0,
+Roberto,2,Lays,3.0,
+Roberto,3,Utz,5.0,
+Roberto,4,Lays,3.0,
+Roberto,5,Generic,4.0,
+Roberto,6,Generic,4.0,
+Roberto,7,Generic,4.0,
+Roberto,8,Lays,2.0,
+Roberto,9,Generic,4.0,
+Jenna,1,Lays,1.0,
+Jenna,2,Generic,4.0,Lays
+Jenna,3,Utz,2.0,
+Jenna,4,Generic,4.0,
+Jenna,5,Lays,3.0,
+Jenna,6,Generic,4.0,
+Jenna,7,Lays,1.0,
+Jenna,8,Lays,2.0,
+Jenna,9,Generic,3.0,
+Tyler,1,Generic,2.0,Store
+Tyler,2,Lays,2.0,Store
+Tyler,3,Utz,3.0,Utz
+Tyler,4,Generic,4.0,Lays
+Tyler,5,Generic,4.0,Lays
+Tyler,6,Lays,2.0,Store
+Tyler,7,Lays,3.0,Store
+Tyler,8,Generic,5.0,Lays?
+Tyler,9,Lays,5.0,Lays
+Keira,1,Utz,4.0,Utz
+Keira,2,Utz,4.0,Texture is amazing
+Keira,3,Utz,3.0,
+Keira,4,Lays,2.0,Store
+Keira,5,Lays,2.0,Lays
+Keira,6,Lays,2.0,Store
+Keira,7,Generic,3.0,Lays
+Keira,8,Generic,3.0,Lays
+Keira,9,Generic,4.0,Lays
+Matt B.,1,Lays,2.0,Lays
+Matt B.,2,Lays,3.0,Lays
+Matt B.,3,Lays,2.0,Store
+Matt B.,4,Utz,4.0,
+Matt B.,5,Utz,5.0,knew it was utz
+Matt B.,6,Utz,5.0,
+Matt B.,7,Generic,2.0,Store
+Matt B.,8,Lays,3.0,Lays
+Matt B.,9,Generic,2.0,Store

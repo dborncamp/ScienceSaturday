@@ -1,33 +1,33 @@
-person,round,coke,score
-Rachel,1,Generic,4.0
-Rachel,2,Coke,3.0
-Rachel,3,Coke,4.0
-Rachel,4,Generic,3.0
-Matt D.,1,Coke,3.0
-Matt D.,2,Generic,2.0
-Matt D.,3,Generic,2.0
-Matt D.,4,Coke,4.0
-Jo,1,,
-Jo,2,,
-Jo,3,,
-Jo,4,,
-Roberto,1,Coke,2.0
-Roberto,2,Generic,3.0
-Roberto,3,Coke,2.0
-Roberto,4,Generic,3.0
-Jenna,1,,
-Jenna,2,,
-Jenna,3,,
-Jenna,4,,
-Tyler,1,Coke,4.0
-Tyler,2,Generic,1.0
-Tyler,3,Generic,1.0
-Tyler,4,Coke,4.0
-Keira,1,,
-Keira,2,,
-Keira,3,,
-Keira,4,,
-Matt B.,1,,
-Matt B.,2,,
-Matt B.,3,,
-Matt B.,4,,
+person,round,coke,score,guess/comment
+Rachel,1,Generic,4.0,
+Rachel,2,Coke,3.0,nope
+Rachel,3,Coke,4.0,
+Rachel,4,Generic,3.0,Lesser quality
+Matt D.,1,Coke,3.0,(sour) mostly like coke
+Matt D.,2,Generic,2.0,Different. Watery
+Matt D.,3,Generic,2.0,Watery
+Matt D.,4,Coke,4.0,"More carbonated, so real"
+Jo,1,,,
+Jo,2,,,
+Jo,3,,,
+Jo,4,,,
+Roberto,1,Coke,2.0,
+Roberto,2,Generic,3.0,
+Roberto,3,Coke,2.0,
+Roberto,4,Generic,3.0,
+Jenna,1,,,
+Jenna,2,,,
+Jenna,3,,,
+Jenna,4,,,
+Tyler,1,Coke,4.0,Coke
+Tyler,2,Generic,1.0,Generic
+Tyler,3,Generic,1.0,Generic
+Tyler,4,Coke,4.0,Coke
+Keira,1,,,
+Keira,2,,,
+Keira,3,,,
+Keira,4,,,
+Matt B.,1,,,
+Matt B.,2,,,
+Matt B.,3,,,
+Matt B.,4,,,

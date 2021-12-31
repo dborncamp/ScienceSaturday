@@ -15,13 +15,15 @@ def make_csv(skiprows,nrows,colname):
 
     idx = pd.MultiIndex.from_product([names,range(1,int(nrows/4)+1)],names=['person','round'])
 
-    outtab = pd.DataFrame(index=idx,columns=[colname,'score'])
+    outtab = pd.DataFrame(index=idx,columns=[colname,'score','guess/comment'])
 
     item = list(itertools.chain(*[rawtab[2::4][i].to_list() for i in rawtab.columns]))
     score = list(itertools.chain(*[rawtab[1::4][i].to_list() for i in rawtab.columns]))
+    guess = list(itertools.chain(*[rawtab[3::4][i].to_list() for i in rawtab.columns]))
 
     outtab[colname] = item
     outtab['score'] = score
+    outtab['guess/comment'] = guess
 
     outtab.to_csv(f'../data/SS10_{colname}.csv')
 

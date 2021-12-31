@@ -1,49 +1,49 @@
-person,round,sourcream,score
-Rachel,1,Generic,3.0
-Rachel,2,Daisy,4.0
-Rachel,3,Generic,3.0
-Rachel,4,Daisy,2.0
-Rachel,5,Generic,2.0
-Rachel,6,Daisy,4.0
-Matt D.,1,Generic,3.0
-Matt D.,2,Generic,3.0
-Matt D.,3,Daisy,2.0
-Matt D.,4,Daisy,4.0
-Matt D.,5,,
-Matt D.,6,,
-Jo,1,Generic,4.0
-Jo,2,Daisy,5.0
-Jo,3,Daisy,4.0
-Jo,4,Generic,4.0
-Jo,5,,
-Jo,6,,
-Roberto,1,,
-Roberto,2,,
-Roberto,3,,
-Roberto,4,,
-Roberto,5,,
-Roberto,6,,
-Jenna,1,Daisy,4.0
-Jenna,2,Generic,3.0
-Jenna,3,Daisy,4.0
-Jenna,4,Store,3.0
-Jenna,5,,
-Jenna,6,,
-Tyler,1,,
-Tyler,2,,
-Tyler,3,,
-Tyler,4,,
-Tyler,5,,
-Tyler,6,,
-Keira,1,Daisy,4.0
-Keira,2,Daisy,4.0
-Keira,3,Generic,4.0
-Keira,4,Generic,4.0
-Keira,5,,
-Keira,6,,
-Matt B.,1,,
-Matt B.,2,,
-Matt B.,3,,
-Matt B.,4,,
-Matt B.,5,,
-Matt B.,6,,
+person,round,sourcream,score,guess/comment
+Rachel,1,Generic,3.0,
+Rachel,2,Daisy,4.0,
+Rachel,3,Generic,3.0,
+Rachel,4,Daisy,2.0,
+Rachel,5,Generic,2.0,
+Rachel,6,Daisy,4.0,
+Matt D.,1,Generic,3.0,
+Matt D.,2,Generic,3.0,
+Matt D.,3,Daisy,2.0,
+Matt D.,4,Daisy,4.0,More flavorful
+Matt D.,5,,,
+Matt D.,6,,,
+Jo,1,Generic,4.0,
+Jo,2,Daisy,5.0,
+Jo,3,Daisy,4.0,
+Jo,4,Generic,4.0,
+Jo,5,,,
+Jo,6,,,
+Roberto,1,,,
+Roberto,2,,,
+Roberto,3,,,
+Roberto,4,,,
+Roberto,5,,,
+Roberto,6,,,
+Jenna,1,Daisy,4.0,Daisy
+Jenna,2,Generic,3.0,Daisy
+Jenna,3,Daisy,4.0,Daisy
+Jenna,4,Store,3.0,Store
+Jenna,5,,,
+Jenna,6,,,
+Tyler,1,,,
+Tyler,2,,,
+Tyler,3,,,
+Tyler,4,,,
+Tyler,5,,,
+Tyler,6,,,
+Keira,1,Daisy,4.0,Store but good
+Keira,2,Daisy,4.0,Daisy
+Keira,3,Generic,4.0,Feels diff. Delicious (Store)
+Keira,4,Generic,4.0,Easier to dip. Tastes same. (Daisy)
+Keira,5,,,
+Keira,6,,,
+Matt B.,1,,,
+Matt B.,2,,,
+Matt B.,3,,,
+Matt B.,4,,,
+Matt B.,5,,,
+Matt B.,6,,,
