@@ -27,7 +27,7 @@ if __name__ == "__main__":
     make_fig('capncrunch',label='Cap n Crunch')
     #make_fig('capncrunchberries',label='Cap n Crunch Berries')
     make_fig('chip',label='Potato chips')
-    make_fig('coke',label='Coke')
+    make_fig('cola',label='Cola')
     make_fig('cookie',label='Oreos')
     make_fig('drpepper',label='Dr. Pepper')
     make_fig('icecream',label='Ice cream')

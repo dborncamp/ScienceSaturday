@@ -24,7 +24,7 @@ if __name__ == "__main__":
     capn = make_table('capncrunch')
     #capnberries = make_table('capncrunchberries')
     chip = make_table('chip')
-    coke = make_table('coke')
+    cola = make_table('cola')
     cookie = make_table('cookie')
     drpepper = make_table('drpepper')
     icecream = make_table('icecream')

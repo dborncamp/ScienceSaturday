@@ -34,7 +34,7 @@ if __name__ == "__main__":
     chip = make_csv(1,36,'chip')
     cookie = make_csv(38,16,'cookie')
     drpepper = make_csv(55,16,'drpepper')
-    coke = make_csv(72,16,'coke')
+    cola = make_csv(72,16,'cola')
     capncrunch = make_csv(89,16,'capncrunch')
     life = make_csv(106,16,'life')
     sourcream = make_csv(123,24,'sourcream')
