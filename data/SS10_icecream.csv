@@ -1,0 +1,33 @@
+person,round,icecream,score,guess/comment
+Rachel,1,Fancy,1.0,
+Rachel,2,Generic,3.0,
+Rachel,3,Fancy,3.0,
+Rachel,4,Generic,2.0,
+Matt D.,1,,,
+Matt D.,2,,,
+Matt D.,3,,,
+Matt D.,4,,,
+Jo,1,Generic,1.0,
+Jo,2,Fancy,3.0,
+Jo,3,Generic,1.0,
+Jo,4,Fancy,3.0,
+Roberto,1,Generic,2.0,
+Roberto,2,Fancy,4.0,
+Roberto,3,Fancy,3.0,
+Roberto,4,Generic,2.0,
+Jenna,1,Fancy,4.0,Fancy
+Jenna,2,Generic,1.0,Generic
+Jenna,3,,,
+Jenna,4,,,
+Tyler,1,Generic,4.0,Store
+Tyler,2,Fancy,2.0,Fancy
+Tyler,3,Fancy,4.0,Store
+Tyler,4,Generic,2.0,Fancy
+Keira,1,Fancy,4.0,Fancy
+Keira,2,Fancy,4.0,Fancy (Prob generic)
+Keira,3,Generic,3.0,Generic (not great)
+Keira,4,Generic,4.0,Fancy (whole milk)
+Matt B.,1,Fancy,3.0,Generic
+Matt B.,2,Fancy,4.0,Better generic (?)
+Matt B.,3,Generic,3.0,not enough cookie
+Matt B.,4,Generic,3.0,Fancy
