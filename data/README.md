@@ -213,7 +213,8 @@ Each person was served ~2 ounces of each beer. There were 18 beers in total, ser
 
 * SS9_BeerCatalog.csv  
 
-### Columns
+#### Columns
+
   * Beer - Brand of Beer
   * Alcoholic - Truth of alcoholic or Non-Alcoholic
   * Style - Truth of style
@@ -221,13 +222,14 @@ Each person was served ~2 ounces of each beer. There were 18 beers in total, ser
 
 * SS9_Results.csv
 
-### Columns
+#### Columns
+
   * Beer - Brand of Beer
   * Info
     * Info contains: Number (order this was served), Alcoholic (True/False Guess), Style (Guess), Rating (1-5), Comment
   * Names - One column for each person that participated
 
-### Notes
+#### Notes
 
 Each person was served a shot of each beer (or NA beer). Each one was given one at a time and told to rate on a scale of 1 to 5, with 5 being the best and 1 being the worst. Because there were so many beers/NA beers, several rounds were used. All beers were kept in the fridge, and only taken out to pour. What was served was randomly selected by the person serving the beverage.
 
@@ -244,7 +246,7 @@ Each person was served a shot of each beer (or NA beer). Each one was given one 
   * SS10_rumncoke.csv
   * SS10_sourcream.csv
 
-### Columns
+#### Columns
 
   * person - Name of guesser
   * round	- Number of guess
@@ -252,6 +254,6 @@ Each person was served a shot of each beer (or NA beer). Each one was given one 
   * score	- Rating 1 to 5
   * guess/comment (Some people guessed if it was generic or not)
 
-### Notes
+#### Notes
 
 Not everyone participated in all of the rounds, and their columns are left blank if that's the case. In each scenario people were blindfolded and told to rate the item based purely on taste. For the Oreos, some people held the cookies by the edges or were fed the cookies. For the chips, nothing was done to mask the Utz ridges. The sour cream was served on a plain potato chip. The ice cream was very freezer burned, and should be redone. People were told to rate on a scale of 1 to 5, with 1 being awful and 5 being fantastic.
