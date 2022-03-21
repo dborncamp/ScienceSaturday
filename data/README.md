@@ -208,3 +208,52 @@ where:
 #### Notes
 
 Each person was served ~2 ounces of each beer. There were 18 beers in total, served in 9 rounds. Within each round, the drinker was given two samples to taste. Drinkers took breaks afters rounds 3 and 6. The order of the samples was randomized by the servers, with the exception of the Sam Adams, which were always served together to try to ascertain whether keg or bottle tasted better.
+
+## Science Saturday 9: Alcoholic vs. Non-alcoholic Beer
+
+* SS9_BeerCatalog.csv  
+
+#### Columns
+
+  * Beer - Brand of Beer
+  * Alcoholic - Truth of alcoholic or Non-Alcoholic
+  * Style - Truth of style
+  * ABV - From cans
+
+* SS9_Results.csv
+
+#### Columns
+
+  * Beer - Brand of Beer
+  * Info
+    * Info contains: Number (order this was served), Alcoholic (True/False Guess), Style (Guess), Rating (1-5), Comment
+  * Names - One column for each person that participated
+
+#### Notes
+
+Each person was served a shot of each beer (or NA beer). Each one was given one at a time and told to rate on a scale of 1 to 5, with 5 being the best and 1 being the worst. Because there were so many beers/NA beers, several rounds were used. All beers were kept in the fridge, and only taken out to pour. What was served was randomly selected by the person serving the beverage.
+
+## Science Saturday 10: Generic Brand vs. Name-Brand Products
+
+  * SS10_capncrunch.csv
+  * SS10_capncrunchberries.csv           
+  * SS10_chip.csv               
+  * SS10_cookie.csv             
+  * SS10_cola.csv               
+  * SS10_drpepper.csv           
+  * SS10_icecream.csv           
+  * SS10_life.csv               
+  * SS10_rumncoke.csv
+  * SS10_sourcream.csv
+
+#### Columns
+
+  * person - Name of guesser
+  * round	- Number of guess
+  * capncrunch / capncrunchberries / chip / cola / cookie / drpepper / icecream / life  / rumncoke / sourcream (Truth column)
+  * score	- Rating 1 to 5
+  * guess/comment (Some people guessed if it was generic or not)
+
+#### Notes
+
+Not everyone participated in all of the rounds, and their columns are left blank if that's the case. In each scenario people were blindfolded and told to rate the item based purely on taste. For the Oreos, some people held the cookies by the edges or were fed the cookies. For the chips, nothing was done to mask the Utz ridges. The sour cream was served on a plain potato chip. The ice cream was very freezer burned, and should be redone. People were told to rate on a scale of 1 to 5, with 1 being awful and 5 being fantastic.
