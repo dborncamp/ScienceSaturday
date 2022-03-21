@@ -212,6 +212,7 @@ Each person was served ~2 ounces of each beer. There were 18 beers in total, ser
 ## Science Saturday 9: Alcoholic vs. Non-alcoholic Beer
 
 * SS9_BeerCatalog.csv  
+
 ### Columns
   * Beer - Brand of Beer
   * Alcoholic - Truth of alcoholic or Non-Alcoholic
@@ -219,6 +220,7 @@ Each person was served ~2 ounces of each beer. There were 18 beers in total, ser
   * ABV - From cans
 
 * SS9_Results.csv
+
 ### Columns
   * Beer - Brand of Beer
   * Info
@@ -243,6 +245,7 @@ Each person was served a shot of each beer (or NA beer). Each one was given one 
   * SS10_sourcream.csv
 
 ### Columns
+
   * person - Name of guesser
   * round	- Number of guess
   * capncrunch / capncrunchberries / chip / cola / cookie / drpepper / icecream / life  / rumncoke / sourcream (Truth column)
